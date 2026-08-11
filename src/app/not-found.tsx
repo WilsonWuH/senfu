@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <section className="not-found"><div className="shell"><p className="eyebrow">404 / NOT FOUND</p><h1>This technical route is not available.</h1><p>The page may be under editorial review or the URL may have changed.</p><div><Link className="button button-primary" href="/">Return home <span>→</span></Link><Link className="button button-secondary" href="/contact/">Ask SENFU <span>↗</span></Link></div></div></section>; }

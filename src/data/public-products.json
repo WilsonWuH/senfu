@@ -1,0 +1,2992 @@
+{
+  "project": "SENFU Technology",
+  "version": "1.0",
+  "sourceGeneratedAt": "2026-08-10",
+  "generatedAt": "2026-08-11T10:37:24.627Z",
+  "publicationMode": "source-backed-preview",
+  "disclosure": "Only source-backed, verified, public fields are projected. Conflicting, missing and internal-only fields are excluded.",
+  "products": [
+    {
+      "id": "SMG20",
+      "model": "SMG20",
+      "productName": "SMG20 Miniature Optical Linear Encoder",
+      "category": "incremental_linear_encoder",
+      "family": "SMG Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": "Dongguan Zeptools Technology Co., Ltd.",
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/smg20/",
+        "primaryKeyword": "miniature optical linear encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-SMG20-MAN-001",
+        "SRC-ZEP-SMG20-DWG-001",
+        "SRC-ZEP-SMG20-CAD-001"
+      ],
+      "specifications": {
+        "scalePitch": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 3-4"
+            }
+          ],
+          "value": 20,
+          "unit": "µm"
+        },
+        "resolutionOptions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 6"
+            }
+          ],
+          "values": [
+            100,
+            50,
+            25,
+            20,
+            10,
+            5,
+            2,
+            1,
+            0.5
+          ],
+          "unit": "nm"
+        },
+        "scaleAccuracy": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 3-4"
+            }
+          ],
+          "value": "±5",
+          "unit": "µm/m",
+          "conditions": [
+            "20°C"
+          ]
+        },
+        "readheadDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 1"
+            }
+          ],
+          "value": "5 × 12 × 21",
+          "unit": "mm"
+        },
+        "scaleMaterials": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 3-4"
+            }
+          ],
+          "values": [
+            "stainless steel",
+            "glass"
+          ]
+        },
+        "steelScale": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": {
+            "crossSectionMm": "0.4 × 6",
+            "maximumLengthMm": 1000,
+            "thermalExpansionUmPerMPerC": 10.2
+          }
+        },
+        "glassScale": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 4"
+            },
+            {
+              "sourceId": "SRC-ZEP-SMG20-DWG-001",
+              "locator": "Page 1"
+            }
+          ],
+          "value": {
+            "crossSectionsMm": [
+              "1.2 × 3.8",
+              "2.4 × 3.8"
+            ],
+            "readTravelMm": [
+              80,
+              110
+            ],
+            "thermalExpansionUmPerMPerC": 8
+          }
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": "5 V ±10%"
+        },
+        "maximumPower": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": 1.2,
+          "unit": "W"
+        },
+        "outputSignals": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "values": [
+            "A+/A-",
+            "B+/B-",
+            "Z+/Z-"
+          ]
+        },
+        "interfaceBox": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "TF-15"
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": "-40 to +100",
+          "unit": "°C"
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": "-20 to +70",
+          "unit": "°C"
+        },
+        "humidity": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": 95,
+          "unit": "% RH",
+          "conditions": [
+            "Non-condensing"
+          ]
+        },
+        "cable": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": {
+            "type": "8-core high-flex shielded PTFE",
+            "diameterMm": 1.9,
+            "maximumLengthM": 10
+          }
+        },
+        "vacuumCompatibility": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG20-MAN-001",
+              "locator": "Page 1-2"
+            }
+          ],
+          "value": "High-vacuum and ultra-high-vacuum use cases stated"
+        }
+      },
+      "applications": [
+        "semiconductor-equipment",
+        "precision-motion",
+        "linear-motor-stages",
+        "microscope-positioning",
+        "vacuum-motion"
+      ]
+    },
+    {
+      "id": "SMG26",
+      "model": "SMG26",
+      "productName": "SMG26 High-Speed Incremental Optical Linear Encoder",
+      "category": "incremental_linear_encoder",
+      "family": "SMG Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": "Dongguan Zeptools Technology Co., Ltd.",
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/smg26/",
+        "primaryKeyword": "high speed optical linear encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-SMG26-MAN-001",
+        "CERT-ZEP-SMG26-EMC-001"
+      ],
+      "specifications": {
+        "scalePitch": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 3-4"
+            }
+          ],
+          "value": 256,
+          "unit": "µm"
+        },
+        "resolutionOptions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 6"
+            }
+          ],
+          "values": [
+            1000,
+            400,
+            200,
+            100,
+            40,
+            20,
+            10,
+            4
+          ],
+          "unit": "nm"
+        },
+        "readheadDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "4.3 × 11 × 16.8",
+          "unit": "mm"
+        },
+        "scaleMaterials": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 3-4"
+            }
+          ],
+          "values": [
+            "stainless steel",
+            "glass"
+          ]
+        },
+        "scaleAccuracy": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 3-4"
+            }
+          ],
+          "value": "±5",
+          "unit": "µm/m",
+          "conditions": [
+            "20°C"
+          ]
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": "5 V ±10%"
+        },
+        "maximumPower": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": 1.5,
+          "unit": "W"
+        },
+        "outputSignals": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "values": [
+            "A+/A-",
+            "B+/B-",
+            "Z+/Z-"
+          ]
+        },
+        "interfaceBox": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "TF-15"
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": "-40 to +100",
+          "unit": "°C"
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": "-20 to +70",
+          "unit": "°C"
+        },
+        "maximumCableLength": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 7"
+            }
+          ],
+          "value": 10,
+          "unit": "m"
+        },
+        "vacuumCompatibility": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SMG26-MAN-001",
+              "locator": "Page 1-2"
+            }
+          ],
+          "value": "Ultra-high-vacuum use stated"
+        },
+        "emcAttestation": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "CERT-ZEP-SMG26-EMC-001",
+              "locator": "Certificate body"
+            }
+          ],
+          "value": "2014/30/EU",
+          "conditions": [
+            "Models SMG26, TF15HP-*, TF15-* only"
+          ]
+        }
+      },
+      "applications": [
+        "high-speed-positioning",
+        "semiconductor-equipment",
+        "linear-motor-stages",
+        "vacuum-motion"
+      ]
+    },
+    {
+      "id": "SAG21",
+      "model": "SAG21",
+      "productName": "SAG21 Absolute Optical Linear Encoder",
+      "category": "absolute_linear_encoder",
+      "family": "SAG Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": "Dongguan Zeptools Technology Co., Ltd.",
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/sag21/",
+        "primaryKeyword": "absolute linear encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-SAG21-MAN-001"
+      ],
+      "specifications": {
+        "interface": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 1, 5, 15-16"
+            }
+          ],
+          "value": "BiSS-C"
+        },
+        "maximumClockFrequency": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": 20,
+          "unit": "MHz"
+        },
+        "technicalResolutionFormats": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 7, 16"
+            }
+          ],
+          "values": [
+            12.5,
+            25,
+            50,
+            100
+          ],
+          "unit": "nm"
+        },
+        "orderableResolutionCodes": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 9"
+            }
+          ],
+          "values": [
+            12.5,
+            50,
+            100
+          ],
+          "unit": "nm"
+        },
+        "maximumSpeed": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 2, 8"
+            }
+          ],
+          "value": 50,
+          "unit": "m/s",
+          "conditions": [
+            "All listed technical resolutions"
+          ]
+        },
+        "maximumAcceleration": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 1, 8"
+            }
+          ],
+          "value": 650,
+          "unit": "m/s²",
+          "conditions": [
+            "Linear scale"
+          ]
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "4.5 to 5.5",
+          "unit": "V"
+        },
+        "maximumPower": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 500,
+          "unit": "mW",
+          "conditions": [
+            "2 MHz BiSS communication, maximum optical intensity"
+          ]
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-40 to +110",
+          "unit": "°C"
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-40 to +130",
+          "unit": "°C"
+        },
+        "maximumCableLength": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 5, 8"
+            }
+          ],
+          "value": 3,
+          "unit": "m"
+        },
+        "scaleAccuracy": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 3-4"
+            }
+          ],
+          "value": {
+            "steelUmPerM": "±10",
+            "glassUmPerM": "±5"
+          },
+          "conditions": [
+            "20°C"
+          ]
+        },
+        "homingRequirement": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SAG21-MAN-001",
+              "locator": "Page 1-2"
+            }
+          ],
+          "value": "No conventional homing required"
+        }
+      },
+      "applications": [
+        "semiconductor-equipment",
+        "high-speed-linear-motion",
+        "precision-machine-tools"
+      ]
+    },
+    {
+      "id": "MICRON-P2",
+      "model": "MICRON-P2",
+      "productName": "MICRON-P2 Miniature Incremental Optical Encoder",
+      "category": "incremental_linear_encoder",
+      "family": "MICRON Series",
+      "brand": "HOPO",
+      "supplier": "SENFU Technology",
+      "manufacturer": null,
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/micron-p2/",
+        "primaryKeyword": "miniature incremental optical encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-HOPO-MP2-DAT-001",
+        "SRC-HOPO-MP2-DWG-001",
+        "SRC-HOPO-MP2-CAD-001",
+        "SRC-HOPO-CAT-2025-001"
+      ],
+      "specifications": {
+        "scalePitch": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 5, 8-9"
+            }
+          ],
+          "value": 20,
+          "unit": "µm"
+        },
+        "standardResolutionOptions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 6, 8"
+            }
+          ],
+          "values": [
+            5,
+            10,
+            20,
+            50,
+            100
+          ],
+          "unit": "nm"
+        },
+        "readheadDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 1, 5"
+            },
+            {
+              "sourceId": "SRC-HOPO-MP2-DWG-001",
+              "locator": "Page 1"
+            }
+          ],
+          "value": "21 × 10 × 5",
+          "unit": "mm"
+        },
+        "installationGap": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DWG-001",
+              "locator": "Page 1"
+            }
+          ],
+          "value": "0.6 ±0.1",
+          "unit": "mm"
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "5 V ±5%"
+        },
+        "typicalCurrent": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": 40,
+          "unit": "mA",
+          "conditions": [
+            "25°C room temperature"
+          ]
+        },
+        "outputSignals": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 7"
+            }
+          ],
+          "values": [
+            "A+/A-",
+            "B+/B-",
+            "Z+/Z-"
+          ]
+        },
+        "outputStandard": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 6"
+            }
+          ],
+          "value": "EIA RS-422A differential square wave"
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "-5 to +70",
+          "unit": "°C",
+          "conditions": [
+            "Non-condensing"
+          ]
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "-20 to +70",
+          "unit": "°C"
+        },
+        "protectionRating": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "IP40"
+        },
+        "scaleMaterials": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 8-9"
+            }
+          ],
+          "values": [
+            "glass",
+            "stainless steel option stated"
+          ]
+        },
+        "vacuumConfiguration": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-HOPO-MP2-DAT-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "V nickel-plated housing option"
+        }
+      },
+      "applications": [
+        "compact-motion-systems",
+        "semiconductor-equipment",
+        "microscope-positioning",
+        "vacuum-motion"
+      ]
+    },
+    {
+      "id": "SCG04",
+      "model": "SCG04",
+      "productName": "SCG04 Incremental Rotary Optical Encoder",
+      "category": "incremental_rotary_encoder",
+      "family": "SCG Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": "Dongguan Zeptools Technology Co., Ltd.",
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/scg-series/",
+        "primaryKeyword": "rotary optical encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-SCG-MAN-001"
+      ],
+      "specifications": {
+        "discMaterial": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": "glass"
+        },
+        "discDiameter": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 4,
+          "unit": "mm"
+        },
+        "discHeight": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 0.4,
+          "unit": "mm"
+        },
+        "adhesiveAdditionalThickness": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 0.05,
+          "unit": "mm"
+        },
+        "lineCount": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 64
+        },
+        "scalePitch": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 5.625,
+          "unit": "degree"
+        },
+        "angularResolutionConfigurations": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 6"
+            }
+          ],
+          "values": [
+            {
+              "interpolation": 5625,
+              "resolutionDegree": 0.001
+            },
+            {
+              "interpolation": 11250,
+              "resolutionDegree": 0.0005
+            },
+            {
+              "interpolation": 22500,
+              "resolutionDegree": 0.00025
+            }
+          ]
+        },
+        "readheadDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "4.3 × 11 × 16.8",
+          "unit": "mm"
+        },
+        "outputSignals": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "values": [
+            "A+/A-",
+            "B+/B-",
+            "Z+/Z-"
+          ]
+        },
+        "interfaceBox": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "TF-15"
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "5 V ±10%"
+        },
+        "maximumPower": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 1.5,
+          "unit": "W"
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-40 to +100",
+          "unit": "°C"
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-20 to +70",
+          "unit": "°C"
+        },
+        "humidity": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 95,
+          "unit": "% RH",
+          "conditions": [
+            "Non-condensing"
+          ]
+        },
+        "maximumCableLength": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 10,
+          "unit": "m"
+        },
+        "vacuumCompatibility": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "Vacuum-compatible configuration mentioned"
+        }
+      },
+      "applications": [
+        "rotary-positioning",
+        "semiconductor-equipment",
+        "compact-motion-systems"
+      ]
+    },
+    {
+      "id": "SCG14",
+      "model": "SCG14",
+      "productName": "SCG14 Incremental Rotary Optical Encoder",
+      "category": "incremental_rotary_encoder",
+      "family": "SCG Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": "Dongguan Zeptools Technology Co., Ltd.",
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/scg-series/",
+        "primaryKeyword": "rotary optical encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-SCG-MAN-001"
+      ],
+      "specifications": {
+        "discMaterial": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": "glass"
+        },
+        "discDiameter": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 14,
+          "unit": "mm"
+        },
+        "discHeight": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 0.8,
+          "unit": "mm"
+        },
+        "adhesiveAdditionalThickness": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 0.05,
+          "unit": "mm"
+        },
+        "lineCount": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 256
+        },
+        "scalePitch": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 3"
+            }
+          ],
+          "value": 1.406,
+          "unit": "degree"
+        },
+        "angularResolutionConfigurations": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 6"
+            }
+          ],
+          "values": [
+            {
+              "interpolation": 1406,
+              "resolutionDegree": 0.001
+            },
+            {
+              "interpolation": 2812,
+              "resolutionDegree": 0.0005
+            },
+            {
+              "interpolation": 7030,
+              "resolutionDegree": 0.0002
+            },
+            {
+              "interpolation": 14060,
+              "resolutionDegree": 0.0001
+            }
+          ]
+        },
+        "readheadDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "4.3 × 11 × 16.8",
+          "unit": "mm"
+        },
+        "outputSignals": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "values": [
+            "A+/A-",
+            "B+/B-",
+            "Z+/Z-"
+          ]
+        },
+        "interfaceBox": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "TF-15"
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "5 V ±10%"
+        },
+        "maximumPower": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 1.5,
+          "unit": "W"
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-40 to +100",
+          "unit": "°C"
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-20 to +70",
+          "unit": "°C"
+        },
+        "humidity": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 95,
+          "unit": "% RH",
+          "conditions": [
+            "Non-condensing"
+          ]
+        },
+        "maximumCableLength": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 10,
+          "unit": "m"
+        },
+        "vacuumCompatibility": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "Vacuum-compatible configuration mentioned"
+        }
+      },
+      "applications": [
+        "rotary-positioning",
+        "semiconductor-equipment",
+        "compact-motion-systems"
+      ]
+    },
+    {
+      "id": "SCG26",
+      "model": "SCG26",
+      "productName": "SCG26 Incremental Rotary Optical Encoder",
+      "category": "incremental_rotary_encoder",
+      "family": "SCG Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": "Dongguan Zeptools Technology Co., Ltd.",
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/scg-series/",
+        "primaryKeyword": "rotary optical encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-SCG-MAN-001"
+      ],
+      "specifications": {
+        "discMaterial": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": "glass"
+        },
+        "discDiameter": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 26,
+          "unit": "mm"
+        },
+        "discHeight": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 1,
+          "unit": "mm"
+        },
+        "adhesiveAdditionalThickness": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 0.05,
+          "unit": "mm"
+        },
+        "lineCount": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 360
+        },
+        "scalePitch": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 1,
+          "unit": "degree"
+        },
+        "angularResolutionConfigurations": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 6"
+            }
+          ],
+          "values": [
+            {
+              "interpolation": 200,
+              "resolutionDegree": 0.005
+            },
+            {
+              "interpolation": 500,
+              "resolutionDegree": 0.002
+            },
+            {
+              "interpolation": 1000,
+              "resolutionDegree": 0.001
+            },
+            {
+              "interpolation": 2000,
+              "resolutionDegree": 0.0005
+            },
+            {
+              "interpolation": 5000,
+              "resolutionDegree": 0.0002
+            },
+            {
+              "interpolation": 10000,
+              "resolutionDegree": 0.0001
+            },
+            {
+              "interpolation": 20000,
+              "resolutionDegree": 0.00005
+            }
+          ]
+        },
+        "readheadDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "4.3 × 11 × 16.8",
+          "unit": "mm"
+        },
+        "outputSignals": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "values": [
+            "A+/A-",
+            "B+/B-",
+            "Z+/Z-"
+          ]
+        },
+        "interfaceBox": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "TF-15"
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "5 V ±10%"
+        },
+        "maximumPower": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 1.5,
+          "unit": "W"
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-40 to +100",
+          "unit": "°C"
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-20 to +70",
+          "unit": "°C"
+        },
+        "humidity": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 95,
+          "unit": "% RH",
+          "conditions": [
+            "Non-condensing"
+          ]
+        },
+        "maximumCableLength": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 10,
+          "unit": "m"
+        },
+        "vacuumCompatibility": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "Vacuum-compatible configuration mentioned"
+        }
+      },
+      "applications": [
+        "rotary-positioning",
+        "semiconductor-equipment",
+        "compact-motion-systems"
+      ]
+    },
+    {
+      "id": "SCG50",
+      "model": "SCG50",
+      "productName": "SCG50 Incremental Rotary Optical Encoder",
+      "category": "incremental_rotary_encoder",
+      "family": "SCG Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": "Dongguan Zeptools Technology Co., Ltd.",
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/optical-encoders/scg-series/",
+        "primaryKeyword": "rotary optical encoder",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-SCG-MAN-001"
+      ],
+      "specifications": {
+        "discMaterial": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": "glass"
+        },
+        "discDiameter": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 50,
+          "unit": "mm"
+        },
+        "discHeight": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 1,
+          "unit": "mm"
+        },
+        "adhesiveAdditionalThickness": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 0.05,
+          "unit": "mm"
+        },
+        "lineCount": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 720
+        },
+        "scalePitch": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 4"
+            }
+          ],
+          "value": 0.5,
+          "unit": "degree"
+        },
+        "angularResolutionConfigurations": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 6"
+            }
+          ],
+          "values": [
+            {
+              "interpolation": 100,
+              "resolutionDegree": 0.005
+            },
+            {
+              "interpolation": 250,
+              "resolutionDegree": 0.002
+            },
+            {
+              "interpolation": 500,
+              "resolutionDegree": 0.001
+            },
+            {
+              "interpolation": 1000,
+              "resolutionDegree": 0.0005
+            },
+            {
+              "interpolation": 2500,
+              "resolutionDegree": 0.0002
+            },
+            {
+              "interpolation": 5000,
+              "resolutionDegree": 0.0001
+            },
+            {
+              "interpolation": 10000,
+              "resolutionDegree": 0.00005
+            }
+          ]
+        },
+        "readheadDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "4.3 × 11 × 16.8",
+          "unit": "mm"
+        },
+        "outputSignals": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "values": [
+            "A+/A-",
+            "B+/B-",
+            "Z+/Z-"
+          ]
+        },
+        "interfaceBox": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 5"
+            }
+          ],
+          "value": "TF-15"
+        },
+        "supplyVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "5 V ±10%"
+        },
+        "maximumPower": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 1.5,
+          "unit": "W"
+        },
+        "operatingTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-40 to +100",
+          "unit": "°C"
+        },
+        "storageTemperature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": "-20 to +70",
+          "unit": "°C"
+        },
+        "humidity": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 95,
+          "unit": "% RH",
+          "conditions": [
+            "Non-condensing"
+          ]
+        },
+        "maximumCableLength": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 8"
+            }
+          ],
+          "value": 10,
+          "unit": "m"
+        },
+        "vacuumCompatibility": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-SCG-MAN-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "Vacuum-compatible configuration mentioned"
+        }
+      },
+      "applications": [
+        "rotary-positioning",
+        "semiconductor-equipment",
+        "compact-motion-systems"
+      ]
+    },
+    {
+      "id": "ZML10A",
+      "model": "ZML10A",
+      "productName": "Compact R&D DMD Maskless Lithography System",
+      "category": "dmd_maskless_lithography",
+      "family": "ZML Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": null,
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/lithography-systems/zml10a/",
+        "primaryKeyword": "compact maskless lithography system",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-ZML-BRO-001"
+      ],
+      "specifications": {
+        "minimumFeature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 0.5,
+          "unit": "µm"
+        },
+        "minimumEqualLineSpace": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 1,
+          "unit": "µm"
+        },
+        "overlayAccuracy": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 1,
+          "unit": "µm",
+          "conditions": [
+            "5 × 5 mm"
+          ]
+        },
+        "exposureWavelengths": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "values": [
+            385,
+            405
+          ],
+          "unit": "nm"
+        },
+        "autofocus": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "image autofocus"
+        },
+        "motorizedObjectiveSwitching": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": false
+        },
+        "vacuumSampleChuck": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": true
+        },
+        "sampleSize": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "5 × 5 mm minimum; 4 inch maximum"
+        },
+        "rotationStage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "manual"
+        },
+        "sampleThickness": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "0 to 10",
+          "unit": "mm"
+        },
+        "patternFormats": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "values": [
+            "DXF",
+            "GDS",
+            "BMP"
+          ]
+        },
+        "systemDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "535 × 510 × 510",
+          "unit": "mm"
+        },
+        "approximateWeight": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 200,
+          "unit": "kg"
+        },
+        "facilityRequirements": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": {
+            "temperature": "18 to 25°C; fluctuation < ±1°C",
+            "humidity": "40% to 65% RH; non-condensing",
+            "power": "220 V / 10 A"
+          }
+        },
+        "grayscaleLithography": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 narrative"
+            }
+          ],
+          "value": "2D and 8-bit grayscale stated"
+        }
+      },
+      "applications": [
+        "mems",
+        "microfluidics",
+        "2d-materials",
+        "photonics",
+        "micro-optics",
+        "research-fabrication"
+      ]
+    },
+    {
+      "id": "ZML100A",
+      "model": "ZML100A",
+      "productName": "Advanced DMD Maskless Lithography Platform",
+      "category": "dmd_maskless_lithography",
+      "family": "ZML Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": null,
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/lithography-systems/zml100a/",
+        "primaryKeyword": "DMD maskless lithography system",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-ZML-BRO-001"
+      ],
+      "specifications": {
+        "minimumFeature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 0.5,
+          "unit": "µm"
+        },
+        "minimumEqualLineSpace": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 1,
+          "unit": "µm"
+        },
+        "overlayAccuracy": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 0.5,
+          "unit": "µm",
+          "conditions": [
+            "5 × 5 mm"
+          ]
+        },
+        "exposureWavelengths": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "values": [
+            385,
+            405
+          ],
+          "unit": "nm"
+        },
+        "autofocus": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "laser active autofocus"
+        },
+        "motorizedObjectiveSwitching": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": true
+        },
+        "vacuumSampleChuck": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": true
+        },
+        "sampleSize": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "5 × 5 mm minimum; 4 inch standard; 6 inch optional"
+        },
+        "rotationStage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "motorized"
+        },
+        "sampleThickness": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "0 to 10",
+          "unit": "mm"
+        },
+        "patternFormats": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "values": [
+            "DXF",
+            "GDS",
+            "BMP"
+          ]
+        },
+        "systemDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "765 × 740 × 1400",
+          "unit": "mm"
+        },
+        "approximateWeight": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 250,
+          "unit": "kg"
+        },
+        "facilityRequirements": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": {
+            "temperature": "18 to 25°C; fluctuation < ±1°C",
+            "humidity": "40% to 65% RH; non-condensing",
+            "power": "220 V / 10 A"
+          }
+        },
+        "grayscaleLithography": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 narrative"
+            }
+          ],
+          "value": "2D and 8-bit grayscale stated"
+        }
+      },
+      "applications": [
+        "mems",
+        "microfluidics",
+        "2d-materials",
+        "photonics",
+        "micro-optics",
+        "research-fabrication"
+      ]
+    },
+    {
+      "id": "ZML200A",
+      "model": "ZML200A",
+      "productName": "8-Inch DMD Maskless Lithography System",
+      "category": "dmd_maskless_lithography",
+      "family": "ZML Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": null,
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/lithography-systems/zml200a/",
+        "primaryKeyword": "8 inch maskless lithography system",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-ZML-BRO-001"
+      ],
+      "specifications": {
+        "minimumFeature": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 0.5,
+          "unit": "µm"
+        },
+        "minimumEqualLineSpace": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 1,
+          "unit": "µm"
+        },
+        "overlayAccuracy": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 0.5,
+          "unit": "µm",
+          "conditions": [
+            "5 × 5 mm"
+          ]
+        },
+        "exposureWavelengths": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "values": [
+            385,
+            405
+          ],
+          "unit": "nm"
+        },
+        "autofocus": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "laser active autofocus"
+        },
+        "motorizedObjectiveSwitching": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": true
+        },
+        "vacuumSampleChuck": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": true
+        },
+        "sampleSize": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "5 × 5 mm minimum; 8 inch maximum"
+        },
+        "rotationStage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "motorized"
+        },
+        "sampleThickness": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "0 to 10",
+          "unit": "mm"
+        },
+        "patternFormats": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "values": [
+            "DXF",
+            "GDS",
+            "BMP"
+          ]
+        },
+        "systemDimensions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": "805 × 805 × 1400",
+          "unit": "mm"
+        },
+        "approximateWeight": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": 350,
+          "unit": "kg"
+        },
+        "facilityRequirements": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 comparison table"
+            }
+          ],
+          "value": {
+            "temperature": "18 to 25°C; fluctuation < ±1°C",
+            "humidity": "40% to 65% RH; non-condensing",
+            "power": "220 V / 10 A"
+          }
+        },
+        "grayscaleLithography": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZML-BRO-001",
+              "locator": "Page 2 narrative"
+            }
+          ],
+          "value": "2D and 8-bit grayscale stated"
+        }
+      },
+      "applications": [
+        "mems",
+        "microfluidics",
+        "2d-materials",
+        "photonics",
+        "micro-optics",
+        "research-fabrication"
+      ]
+    },
+    {
+      "id": "ZEL304G",
+      "model": "ZEL304G",
+      "productName": "ZEL304G Electron Beam Lithography System",
+      "category": "electron_beam_lithography",
+      "family": "ZEL Series",
+      "brand": "ZEPTOOLS",
+      "supplier": "SENFU Technology",
+      "manufacturer": null,
+      "publicationStatus": "review_required",
+      "seo": {
+        "slug": "/lithography-systems/zel304g/",
+        "primaryKeyword": "electron beam lithography system",
+        "status": "hypothesis"
+      },
+      "sourceIds": [
+        "SRC-ZEP-ZEL-BRO-001"
+      ],
+      "specifications": {
+        "electronGun": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "Schottky field emission"
+        },
+        "accelerationVoltage": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "20 V to 30 kV"
+        },
+        "imageResolution": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "values": [
+            "≤1 nm @ 15 kV",
+            "≤1.5 nm @ 1 kV"
+          ]
+        },
+        "beamCurrent": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "≥100",
+          "unit": "nA"
+        },
+        "beamCurrentDensity": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": ">7000",
+          "unit": "A/cm²"
+        },
+        "minimumSpotSize": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "≤2",
+          "unit": "nm"
+        },
+        "beamBlankerRiseTime": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "<100",
+          "unit": "ns"
+        },
+        "writeField": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "≤500 × 500",
+          "unit": "µm"
+        },
+        "singleExposureLinewidth": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "<15",
+          "unit": "nm",
+          "conditions": [
+            "Process dependent"
+          ]
+        },
+        "beamScanSpeed": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "≤20",
+          "unit": "MHz"
+        },
+        "stageTravel": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "≤105",
+          "unit": "mm"
+        },
+        "generatorControl": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "High-performance FPGA"
+        },
+        "generatorMaximumScanSpeed": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": 50,
+          "unit": "MHz"
+        },
+        "dacResolution": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": 20,
+          "unit": "bit"
+        },
+        "supportedWriteFieldSizes": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "10 to 500",
+          "unit": "µm"
+        },
+        "minimumDwellIncrement": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": 10,
+          "unit": "ns"
+        },
+        "patternFormats": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "values": [
+            "GDSII",
+            "DXF",
+            "BMP"
+          ]
+        },
+        "exposureFunctions": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "values": [
+            "field calibration",
+            "field stitching",
+            "overlay",
+            "multi-layer automatic exposure"
+          ]
+        },
+        "proximityEffectCorrection": {
+          "verificationStatus": "verified",
+          "visibility": "public",
+          "reviewStatus": "review_required",
+          "sourceRefs": [
+            {
+              "sourceId": "SRC-ZEP-ZEL-BRO-001",
+              "locator": "Page 2"
+            }
+          ],
+          "value": "optional"
+        }
+      },
+      "applications": [
+        "nanofabrication",
+        "2d-materials",
+        "photonics",
+        "quantum-devices",
+        "semiconductor-rd"
+      ]
+    }
+  ]
+}
