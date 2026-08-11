@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { chromium } from "file:///C:/Users/%E5%90%B4%E6%98%8A/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs";
 
-const baseUrl = "http://127.0.0.1:3000";
+const baseUrl = process.env.BASE_URL ?? "http://127.0.0.1:3000";
 const outputDir = new URL("../tmp/visual-qa/", import.meta.url);
 await mkdir(outputDir, { recursive: true });
 
