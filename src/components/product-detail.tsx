@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/breadcrumb";
 import { SectionHeading } from "@/components/section-heading";
 import { field, formatFieldValue, humanize } from "@/lib/products";
 import type { ProductContent } from "@/lib/product-content";
+import { getResourcesForProduct } from "@/lib/resources";
 import { siteConfig } from "@/lib/site";
 import type { PublicProduct } from "@/lib/types";
 
@@ -15,6 +16,7 @@ type ProductDetailProps = {
 };
 
 export function ProductDetail({ product, content, siblings = [], platform }: ProductDetailProps) {
+  const productResources = getResourcesForProduct(product.model);
   const parent = platform === "encoder"
     ? { label: "Optical encoders", href: "/optical-encoders/" }
     : { label: "Lithography systems", href: "/lithography-systems/" };
@@ -43,7 +45,7 @@ export function ProductDetail({ product, content, siblings = [], platform }: Pro
                 <Link className="button button-primary" href="/contact/#application-form">Request technical evaluation <span>↗</span></Link>
                 <Link className="button button-secondary" href="/resources/">Engineering resources <span>→</span></Link>
               </div>
-              <div className="role-line"><span>Brand <strong>{product.brand}</strong></span><span>Supplied by <strong>SENFU Technology</strong></span></div>
+              <div className="role-line"><span>Brand <strong>{product.brand}</strong></span><span>Supplied by <strong>SENFU Technology</strong></span>{product.manufacturer ? <span>Manufacturer <strong>{product.manufacturer}</strong></span> : null}</div>
             </div>
             <div className="detail-visual">
               <Image src={content.image} alt={`${product.productName} product image`} fill loading="eager" sizes="(max-width: 900px) 100vw, 46vw" style={{ objectFit: "cover", objectPosition: content.imagePosition }} />
@@ -83,6 +85,7 @@ export function ProductDetail({ product, content, siblings = [], platform }: Pro
           <dl className="spec-table">
             {content.specKeys.map((key) => <div key={key}><dt>{humanize(key)}</dt><dd>{formatFieldValue(field(product, key))}</dd></div>)}
           </dl>
+          <p className="source-line">Source record{product.sourceIds.length === 1 ? "" : "s"}: {product.sourceIds.join(" · ")}</p>
         </div>
       </section>
 
@@ -92,6 +95,24 @@ export function ProductDetail({ product, content, siblings = [], platform }: Pro
           <div className="application-pill-grid">{content.applications.map((application) => <div key={application}><span>↗</span>{application}</div>)}</div>
         </div>
       </section>
+
+      {productResources.length ? (
+        <section className="section product-resources">
+          <div className="shell">
+            <SectionHeading eyebrow="ENGINEERING DOCUMENTATION" title="Start the review with the original source files." description="Downloads are linked to this product record. Commercial terms, final configuration and suitability remain subject to technical review." />
+            <div className="download-grid">
+              {productResources.map((resource) => (
+                <a className="download-card" key={resource.href} href={resource.href} download>
+                  <span>{resource.kind} · {resource.fileType}</span>
+                  <strong>{resource.title}</strong>
+                  <p>{resource.description}</p>
+                  <small>{resource.sourceNote} <b>↓</b></small>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {siblings.length > 1 ? (
         <section className="section related-products">

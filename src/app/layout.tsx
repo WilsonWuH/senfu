@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { siteConfig } from "@/lib/site";
+import { company, siteConfig } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -26,9 +26,24 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.name,
+    legalName: company.legalName,
     url: siteConfig.url,
     ...(siteConfig.email ? { email: siteConfig.email } : {}),
+    telephone: company.phone,
     description: siteConfig.description,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Shenzhen",
+      addressCountry: "CN",
+      streetAddress: company.address,
+    },
+    contactPoint: [{
+      "@type": "ContactPoint",
+      contactType: "technical sales",
+      telephone: company.phone,
+      ...(siteConfig.email ? { email: siteConfig.email } : {}),
+      availableLanguage: ["en", "zh-CN"],
+    }],
   };
 
   return (

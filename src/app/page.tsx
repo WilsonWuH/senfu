@@ -56,6 +56,14 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="company-trust-strip">
+        <div className="shell company-trust-grid">
+          <div><p className="eyebrow">SENFU TECHNOLOGY</p><strong>Shenzhen-based technical supplier</strong></div>
+          <p>Product selection, configuration review and engineering documentation for precision motion and micro/nano fabrication.</p>
+          <Link className="text-link" href="/about/">About SENFU <span>→</span></Link>
+        </div>
+      </section>
+
       <section className="section platform-section">
         <div className="shell">
           <SectionHeading eyebrow="TWO TECHNOLOGY PLATFORMS" title="Select by engineering objective." description="Start with the feedback or fabrication requirement, then compare configurations using parameters tied to original technical sources." />

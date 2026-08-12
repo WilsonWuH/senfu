@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { primaryNav, siteConfig } from "@/lib/site";
+import { company, primaryNav, siteConfig } from "@/lib/site";
 
 export function SiteFooter() {
   return (
@@ -30,11 +30,12 @@ export function SiteFooter() {
         <div>
           <p className="footer-label">Technical enquiries</p>
           {siteConfig.email ? <a className="footer-email" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> : <Link className="footer-email" href="/contact/">Technical enquiry form</Link>}
-          <p className="footer-note">Shenzhen, China · Global B2B support</p>
+          <a className="footer-contact-line" href={company.phoneHref}>{company.phone}</a>
+          <p className="footer-note">{company.address}<br />{company.hours}</p>
         </div>
       </div>
       <div className="shell footer-bottom">
-        <span>© {new Date().getFullYear()} SENFU Technology</span>
+        <span>© {new Date().getFullYear()} SENFU Technology · {company.legalName} · {company.icp}</span>
         <span>Specifications are configuration-dependent and subject to technical confirmation.</span>
       </div>
     </footer>

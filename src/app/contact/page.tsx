@@ -1,8 +1,43 @@
 import type { Metadata } from "next";
 import { ListingHero } from "@/components/listing-hero";
-import { siteConfig } from "@/lib/site";
-export const metadata: Metadata = { title: "Discuss Your Application", description: "Request an encoder recommendation or discuss a lithography application with SENFU Technology.", alternates: { canonical: "/contact/" } };
+import { company, siteConfig } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Discuss Your Application",
+  description: "Request an encoder recommendation or discuss a lithography application with SENFU Technology.",
+  alternates: { canonical: "/contact/" },
+};
+
 export default function Page() {
   const emailReady = Boolean(siteConfig.email);
-  return <><ListingHero eyebrow="TECHNICAL ENQUIRY" title="Discuss your application." description="The useful first conversation starts with operating requirements. Choose the relevant route and share what is already known." breadcrumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]} primaryHref={emailReady ? `mailto:${siteConfig.email}` : "#application-form"} primaryLabel={emailReady ? "Email SENFU directly" : "Prepare an application brief"} /><section className="section contact-section" id="application-form"><div className="shell contact-grid"><div><p className="eyebrow">APPLICATION BRIEF</p><h2>Send enough context for a technical first response.</h2><p>Required configuration and document availability will be confirmed against the controlled product record.</p><div className="contact-direct"><small>DIRECT EMAIL</small>{emailReady ? <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> : <strong>To be connected before launch</strong>}<span>Shenzhen, China · Global B2B enquiries</span></div></div><form className="rfq-form" action={emailReady ? `mailto:${siteConfig.email}` : undefined} method={emailReady ? "post" : undefined} encType={emailReady ? "text/plain" : undefined}><label><span>Product area *</span><select name="Product area" required defaultValue=""><option value="" disabled>Select one</option><option>Optical encoder</option><option>Lithography system</option><option>Engineering resources</option><option>Other technical enquiry</option></select></label><div className="form-two"><label><span>Name *</span><input name="Name" required autoComplete="name" /></label><label><span>Work email *</span><input name="Email" type="email" required autoComplete="email" /></label></div><div className="form-two"><label><span>Company / institution *</span><input name="Company" required autoComplete="organization" /></label><label><span>Country / region *</span><input name="Country" required autoComplete="country-name" /></label></div><label><span>Existing model or technology</span><input name="Existing model" placeholder="e.g. SMG20, ZML100A or current alternative" /></label><label><span>Application and critical requirements *</span><textarea name="Application" required rows={7} placeholder="For encoders: resolution, travel, speed, interface, environment, space. For lithography: feature, substrate, resist, wavelength, overlay, grayscale, pattern format." /></label><label className="consent"><input type="checkbox" required name="Consent" value="Yes" /><span>I agree that SENFU may use this information to respond to my technical enquiry.</span></label><button className="button button-primary" type="submit" disabled={!emailReady}>{emailReady ? "Prepare enquiry email" : "Sales email pending configuration"} <span>↗</span></button><p className="form-note">{emailReady ? "This first version opens your email client so you retain control of the information and any attachments sent." : "The form is visually complete; submission activates when NEXT_PUBLIC_SALES_EMAIL is configured for launch."}</p></form></div></section></>;
+  return <>
+    <ListingHero eyebrow="TECHNICAL ENQUIRY" title="Discuss your application." description="The useful first conversation starts with operating requirements. Choose the relevant route and share what is already known." breadcrumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]} primaryHref={emailReady ? `mailto:${siteConfig.email}` : "#application-form"} primaryLabel={emailReady ? "Email SENFU directly" : "Prepare an application brief"} />
+    <section className="section contact-section" id="application-form">
+      <div className="shell contact-grid">
+        <div>
+          <p className="eyebrow">APPLICATION BRIEF</p>
+          <h2>Send enough context for a technical first response.</h2>
+          <p>Required configuration and document availability will be confirmed against the controlled product record.</p>
+          <div className="contact-direct">
+            <small>DIRECT CONTACT</small>
+            {emailReady ? <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> : <strong>Sales email to be connected before launch</strong>}
+            <a href={company.phoneHref}>{company.phone}</a>
+            <span>{company.address}</span>
+            <span>{company.hours}</span>
+          </div>
+        </div>
+        <form className="rfq-form" action={emailReady ? `mailto:${siteConfig.email}` : undefined} method={emailReady ? "post" : undefined} encType={emailReady ? "text/plain" : undefined}>
+          <label><span>Product area *</span><select name="Product area" required defaultValue=""><option value="" disabled>Select one</option><option>Optical encoder</option><option>Lithography system</option><option>Engineering resources</option><option>Other technical enquiry</option></select></label>
+          <div className="form-two"><label><span>Name *</span><input name="Name" required autoComplete="name" /></label><label><span>Work email *</span><input name="Email" type="email" required autoComplete="email" /></label></div>
+          <div className="form-two"><label><span>Company / institution *</span><input name="Company" required autoComplete="organization" /></label><label><span>Country / region *</span><input name="Country" required autoComplete="country-name" /></label></div>
+          <label><span>Existing model or technology</span><input name="Existing model" placeholder="e.g. SMG20, ZML100A or current alternative" /></label>
+          <label><span>Application and critical requirements *</span><textarea name="Application" required rows={7} placeholder="For encoders: resolution, travel, speed, interface, environment, space. For lithography: feature, substrate, resist, wavelength, overlay, grayscale, pattern format." /></label>
+          <label><span>Drawing or process brief (optional)</span><input name="Attachment note" placeholder="Add files in your email client after the enquiry draft opens" /></label>
+          <label className="consent"><input type="checkbox" required name="Consent" value="Yes" /><span>I agree that SENFU may use this information to respond to my technical enquiry.</span></label>
+          <button className="button button-primary" type="submit" disabled={!emailReady}>{emailReady ? "Prepare enquiry email" : "Sales email pending configuration"} <span>→</span></button>
+          <p className="form-note">{emailReady ? "The form prepares an email draft addressed to SENFU. Add drawings or process files before sending." : "The form is visually complete; submission activates when a sales email is configured for launch."}</p>
+        </form>
+      </div>
+    </section>
+  </>;
 }

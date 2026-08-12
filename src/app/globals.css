@@ -73,6 +73,11 @@ img { max-width: 100%; }
 .visual-readout strong { color: white; font-size: 12px; font-weight: 540; }
 .proof-strip { min-height: 88px; margin-top: 72px; display: grid; grid-template-columns: repeat(3, auto) 1fr; align-items: center; gap: 38px; border-top: 1px solid var(--line); color: #4d5d69; font-size: 12px; }
 .proof-strip strong { margin-right: 7px; color: var(--ink); font: 620 20px/1 var(--font-geist-mono), monospace; }
+.company-trust-strip { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: white; }
+.company-trust-grid { display: grid; grid-template-columns: 1fr 1.2fr auto; gap: 50px; align-items: center; min-height: 125px; }
+.company-trust-grid .eyebrow { margin-bottom: 9px; }
+.company-trust-grid strong { color: var(--ink); font-size: 16px; font-weight: 590; }
+.company-trust-grid p:not(.eyebrow) { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
 .proof-note { text-align: right; color: #798692; }
 
 .section-heading { max-width: 780px; margin-bottom: 50px; }
@@ -150,6 +155,7 @@ img { max-width: 100%; }
 .footer-label { margin: 0 0 20px; color: #6f8498; font: 600 10px/1 var(--font-geist-mono), monospace; letter-spacing: .12em; text-transform: uppercase; }
 .footer-links { display: grid; gap: 13px; font-size: 13px; color: #c0cbd4; }
 .footer-email { display: inline-block; color: white; border-bottom: 1px solid #6f8498; padding-bottom: 5px; font-size: 13px; }
+.footer-contact-line { display: inline-block; margin-top: 14px; color: #dce7ef; font-size: 13px; }
 .footer-note { color: #718598; font-size: 12px; margin: 16px 0 0; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 30px; padding-top: 24px; border-top: 1px solid #263748; color: #64788b; font-size: 10px; }
 
@@ -201,6 +207,7 @@ img { max-width: 100%; }
 .detail-two-column { display: grid; grid-template-columns: .82fr 1.18fr; gap: 110px; }
 .detail-two-column h2, .standalone-heading, .specification-layout h2, .route-section h2, .evidence-checklist h2 { margin: 0; font-size: clamp(38px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.045em; font-weight: 580; }
 .detail-positioning { margin: 0 0 32px; color: #3f4d59; font-size: 20px; line-height: 1.72; }
+.detail-copy { margin: 0 0 28px; color: var(--muted); font-size: 16px; line-height: 1.75; }
 .review-note { display: grid; grid-template-columns: 145px 1fr; gap: 20px; padding: 21px; border-left: 3px solid #d89b2b; background: #fff8ea; color: #695324; font-size: 13px; line-height: 1.55; }
 .review-note strong { color: #493915; }
 .benefit-section { background: var(--soft); }
@@ -216,10 +223,22 @@ img { max-width: 100%; }
 .spec-table > div { display: grid; grid-template-columns: .8fr 1.2fr; gap: 28px; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .spec-table dt { color: #687681; font: 560 10px/1.45 var(--font-geist-mono), monospace; text-transform: uppercase; }
 .spec-table dd { margin: 0; color: #263541; font-size: 14px; line-height: 1.55; }
+.source-line { margin: 25px 0 0; color: #7a8995; font: 500 10px/1.6 var(--font-geist-mono), monospace; }
 .product-applications { border-top: 1px solid var(--line); }
 .application-pill-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
 .application-pill-grid > div { min-height: 130px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; background: var(--soft); font-size: 15px; font-weight: 570; }
 .application-pill-grid span { color: var(--blue); text-align: right; }
+.product-resources { background: white; border-top: 1px solid var(--line); }
+.download-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 38px; }
+.download-card { min-height: 210px; display: flex; flex-direction: column; padding: 24px; border: 1px solid var(--line); background: var(--soft); }
+.download-card:hover { color: white; background: var(--navy); border-color: var(--navy); }
+.download-card > span { color: var(--blue); font: 600 9px/1.4 var(--font-geist-mono), monospace; letter-spacing: .09em; text-transform: uppercase; }
+.download-card strong { margin-top: 40px; font-size: 19px; line-height: 1.2; }
+.download-card p { margin: 10px 0 22px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.download-card:hover p { color: #b6c5d3; }
+.download-card small { margin-top: auto; color: #7a8995; font: 600 9px/1.4 var(--font-geist-mono), monospace; }
+.download-card small b { float: right; color: var(--blue); font-size: 16px; }
+.download-card:hover > span, .download-card:hover small, .download-card:hover small b { color: var(--cyan); }
 .related-products { background: var(--soft); }
 .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .related-grid a { position: relative; min-height: 170px; display: grid; align-content: end; padding: 22px; background: white; border: 1px solid var(--line); }
@@ -228,6 +247,15 @@ img { max-width: 100%; }
 .related-grid span { margin-top: 4px; color: var(--muted); font-size: 13px; }
 .related-grid b { position: absolute; right: 20px; top: 18px; font-size: 20px; font-weight: 400; }
 .product-cta { background: var(--soft); }
+
+.company-section { background: var(--soft); }
+.company-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 100px; align-items: start; }
+.company-grid h2 { margin: 0 0 22px; font-size: clamp(38px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.045em; font-weight: 580; }
+.company-details { margin: 0; border-top: 1px solid #c9d2d9; }
+.company-details > div { display: grid; grid-template-columns: 145px 1fr; gap: 25px; padding: 18px 0; border-bottom: 1px solid #c9d2d9; }
+.company-details dt { color: #687681; font: 600 10px/1.45 var(--font-geist-mono), monospace; text-transform: uppercase; letter-spacing: .05em; }
+.company-details dd { margin: 0; color: #2c3b47; font-size: 14px; line-height: 1.55; }
+.company-details a { text-decoration: underline; text-underline-offset: 4px; }
 
 .editorial-hero { padding: 54px 0 100px; color: white; background: var(--navy); }
 .editorial-hero .breadcrumb { color: #8295a7; }
@@ -257,10 +285,26 @@ img { max-width: 100%; }
 .resource-grid article > span { color: var(--blue); font: 600 10px/1 var(--font-geist-mono), monospace; }
 .resource-grid h2 { margin: 65px 0 13px; font-size: 27px; font-weight: 570; }
 .resource-grid p { min-height: 70px; color: var(--muted); line-height: 1.65; font-size: 14px; }
+.resource-heading-row { display: grid; grid-template-columns: 1fr .65fr; gap: 100px; align-items: end; margin-bottom: 38px; }
+.resource-heading-row h2 { margin: 0; font-size: clamp(38px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.045em; font-weight: 580; }
+.resource-heading-row > p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 15px; }
+.resource-download-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.resource-download-card { min-height: 235px; display: flex; flex-direction: column; padding: 24px; border: 1px solid var(--line); background: white; }
+.resource-download-card:hover { color: white; background: var(--navy); border-color: var(--navy); }
+.resource-download-card > span { color: var(--blue); font: 600 9px/1.4 var(--font-geist-mono), monospace; letter-spacing: .09em; text-transform: uppercase; }
+.resource-download-card strong { margin-top: 42px; font-size: 19px; line-height: 1.2; }
+.resource-download-card p { margin: 10px 0 22px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.resource-download-card:hover p { color: #b6c5d3; }
+.resource-download-card small { margin-top: auto; color: #7a8995; font: 600 9px/1.4 var(--font-geist-mono), monospace; }
+.resource-download-card small b { float: right; color: var(--blue); font-size: 16px; }
+.resource-download-card:hover > span, .resource-download-card:hover small, .resource-download-card:hover small b { color: var(--cyan); }
+.resource-index-section { padding-top: 0; }
 .certificate-list { border-top: 1px solid #bcc7d0; }
 .certificate-row { min-height: 79px; display: grid; grid-template-columns: 1fr 1.4fr .8fr .8fr; gap: 25px; align-items: center; border-bottom: 1px solid var(--line); font-size: 13px; }
 .certificate-head { min-height: 48px; color: #77848f; font: 600 9px/1 var(--font-geist-mono), monospace; text-transform: uppercase; }
 .certificate-row strong { font-family: var(--font-geist-mono), monospace; }
+.certificate-row div { display: grid; gap: 6px; }
+.certificate-row div small { color: var(--muted); font-size: 12px; }
 .contact-section { background: white; }
 .contact-grid { display: grid; grid-template-columns: .72fr 1.28fr; gap: 105px; }
 .contact-grid h2 { margin: 0; font-size: clamp(38px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.045em; font-weight: 580; }
@@ -352,9 +396,9 @@ img { max-width: 100%; }
   .footer-bottom { display: grid; }
   .breadcrumb { margin-bottom: 45px; }
   .listing-hero { padding: 44px 0 66px; }
-  .listing-hero-grid, .detail-two-column, .specification-layout, .contact-grid, .knowledge-grid { grid-template-columns: 1fr; gap: 34px; }
+  .listing-hero-grid, .detail-two-column, .specification-layout, .contact-grid, .knowledge-grid, .company-grid, .resource-heading-row, .company-trust-grid { grid-template-columns: 1fr; gap: 22px; }
   .listing-hero h1, .detail-hero h1, .editorial-hero h1, .not-found h1 { font-size: clamp(45px, 13vw, 62px); }
-  .selection-grid, .benefit-grid, .knowledge-cards, .resource-grid { grid-template-columns: 1fr; }
+  .selection-grid, .benefit-grid, .knowledge-cards, .resource-grid, .download-grid, .resource-download-grid { grid-template-columns: 1fr; }
   .selection-grid > a { border-right: 0; border-bottom: 1px solid var(--line); }
   .model-head { display: none; }
   .model-row { grid-template-columns: 1fr 30px; gap: 8px 18px; padding: 20px 0; }
@@ -376,9 +420,10 @@ img { max-width: 100%; }
   .route-list a b { grid-column: 2; grid-row: 1 / 3; }
   .resource-grid { border-left: 1px solid var(--line); }
   .certificate-head { display: none; }
-  .certificate-row { grid-template-columns: 1fr; gap: 7px; padding: 18px 0; }
+  .certificate-row { grid-template-columns: 1fr; gap: 12px; padding: 18px 0; }
   .form-two { grid-template-columns: 1fr; gap: 0; }
   .rfq-form { padding: 28px 20px; }
+  .company-details > div { grid-template-columns: 1fr; gap: 7px; }
   .not-found div > div { display: grid; }
 }
 
