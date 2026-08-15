@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const productRoutes = [...new Set(products.map((product) => product.seo.slug))];
   const applicationRoutes = Object.keys(applicationPages).map((slug) => `/applications/${slug}/`);
   const technologyRoutes = Object.keys(technologyPages).map((slug) => `/technology/${slug}/`);
-  const lastModified = new Date("2026-08-10T00:00:00+08:00");
+  const lastModified = new Date("2026-08-15T00:00:00+08:00");
   return [...fixed, ...productRoutes, ...applicationRoutes, ...technologyRoutes].map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified,
