@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "SENFU Technology",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://semielfmicro.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://senfuprecision.com",
   email: process.env.NEXT_PUBLIC_SALES_EMAIL ?? "wh1007209170@gmail.com",
   description:
     "Source-backed optical encoder and lithography system selection for precision motion, semiconductor equipment and micro/nano fabrication.",
