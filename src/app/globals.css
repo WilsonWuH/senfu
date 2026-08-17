@@ -32,7 +32,8 @@ img { max-width: 100%; }
 .utility-proof::before { content: ""; display: inline-block; width: 6px; height: 6px; margin-right: 8px; background: #53c79b; border-radius: 50%; }
 .site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); }
 .nav-row { height: 78px; display: flex; align-items: center; gap: 36px; }
-.brand { display: inline-flex; align-items: center; gap: 11px; margin-right: auto; }
+.brand { display: inline-flex; align-items: center; margin-right: auto; }
+.brand-logo { display: block; width: 156px; height: auto; }
 .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; color: white; background: var(--blue); border-radius: 50% 50% 50% 12%; font-weight: 760; font-size: 18px; }
 .brand-copy { display: grid; line-height: 1; }
 .brand-copy strong { font-size: 21px; letter-spacing: .08em; }
@@ -385,6 +386,7 @@ img { max-width: 100%; }
   .section { padding: 78px 0; }
   .utility-proof { display: none; }
   .nav-row { height: 68px; gap: 18px; }
+  .brand-logo { width: 132px; }
   .brand-copy strong { font-size: 17px; }
   .brand-mark { width: 30px; height: 30px; }
   .header-cta { display: none; }
