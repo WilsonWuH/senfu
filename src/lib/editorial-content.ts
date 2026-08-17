@@ -1,8 +1,25 @@
+import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
+
+export type EditorialImage = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+};
+
+export type EditorialSubsection = {
+  heading: string;
+  paragraphs: string[];
+  bullets?: string[];
+};
+
 export type EditorialSection = {
   heading: string;
   paragraphs: string[];
   bullets?: string[];
   links?: { label: string; href: string }[];
+  subsections?: EditorialSubsection[];
+  image?: EditorialImage;
 };
 
 export type EditorialFaq = {
@@ -18,10 +35,18 @@ export type EditorialPage = {
   requirements: { title: string; description: string }[];
   routes: { label: string; href: string; note: string }[];
   evidence: string[];
+  slug?: string;
+  publishedAt?: string;
+  modifiedAt?: string;
   primaryKeyword?: string;
   secondaryKeywords?: string[];
+  directAnswer?: string[];
+  featuredImage?: EditorialImage;
+  comparisonTable?: { caption: string; headers: string[]; rows: string[][] };
   articleSections?: EditorialSection[];
+  conclusion?: string[];
   faq?: EditorialFaq[];
+  sources?: { publisher: string; label: string; href: string }[];
 };
 
 export const applicationPages: Record<string, EditorialPage> = {
@@ -82,6 +107,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "grayscale-lithography-system-selection": grayscaleLithographySystemSelection,
   "incremental-vs-absolute-encoder": {
     eyebrow: "TECHNOLOGY / ENCODER ARCHITECTURE",
     title: "Incremental vs absolute encoder: which feedback system should you choose?",

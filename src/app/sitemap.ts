@@ -15,9 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date("2026-08-15T00:00:00+08:00");
   return [...fixed, ...productRoutes, ...applicationRoutes, ...technologyRoutes].map((route) => ({
     url: `${siteConfig.url}${route}`,
-    lastModified,
+    lastModified: route.startsWith("/technology/") && technologyPages[route.split("/")[2]]?.modifiedAt ? new Date(`${technologyPages[route.split("/")[2]].modifiedAt}T00:00:00+08:00`) : lastModified,
     changeFrequency: route === "" ? "weekly" : "monthly",
     priority: route === "" ? 1 : route.includes("/technology/") || route.includes("/applications/") ? 0.7 : 0.8,
     ...(route === "" ? { images: [`${siteConfig.url}/materials/smg20-product.png`, `${siteConfig.url}/materials/zml-system-product.png`] } : {}),
+    ...(route.startsWith("/technology/") && technologyPages[route.split("/")[2]]?.featuredImage ? { images: [
+      `${siteConfig.url}${technologyPages[route.split("/")[2]].featuredImage?.src}`,
+      ...(technologyPages[route.split("/")[2]].articleSections?.flatMap((section) => section.image ? [`${siteConfig.url}${section.image.src}`] : []) ?? []),
+    ] } : {}),
   }));
 }
