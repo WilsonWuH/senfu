@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { primaryNav } from "@/lib/site";
 
@@ -12,11 +13,14 @@ export function SiteHeader() {
       </div>
       <div className="shell nav-row">
         <Link className="brand" href="/" aria-label="SENFU Technology home">
-          <span className="brand-mark" aria-hidden="true">S</span>
-          <span className="brand-copy">
-            <strong>SENFU</strong>
-            <small>TECHNOLOGY</small>
-          </span>
+          <Image
+            className="brand-logo"
+            src="/brand/senfu-logo.png"
+            alt="SENFU Technology"
+            width={208}
+            height={76}
+            priority
+          />
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {primaryNav.map((item) => (
