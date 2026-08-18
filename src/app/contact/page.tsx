@@ -23,6 +23,7 @@ export default function Page() {
             <small>DIRECT CONTACT</small>
             {emailReady ? <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> : <strong>Sales email to be connected before launch</strong>}
             <a href={company.phoneHref}>{company.phone}</a>
+            <a href={company.whatsappHref} target="_blank" rel="noopener noreferrer">WhatsApp: {company.whatsapp}</a>
             <span>{company.address}</span>
             <span>{company.hours}</span>
           </div>

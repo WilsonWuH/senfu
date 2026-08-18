@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { company, primaryNav, siteConfig } from "@/lib/site";
 
@@ -6,9 +7,14 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div>
-          <Link className="brand brand-light" href="/">
-            <span className="brand-mark" aria-hidden="true">S</span>
-            <span className="brand-copy"><strong>SENFU</strong><small>TECHNOLOGY</small></span>
+          <Link className="footer-brand" href="/" aria-label="SENFU Technology home">
+            <Image
+              className="footer-brand-logo"
+              src="/brand/senfu-logo.png"
+              alt="SENFU Technology"
+              width={208}
+              height={76}
+            />
           </Link>
           <p className="footer-statement">
             Technical supply and application support for precision position feedback and micro/nano fabrication systems.
@@ -30,7 +36,7 @@ export function SiteFooter() {
         <div>
           <p className="footer-label">Technical enquiries</p>
           {siteConfig.email ? <a className="footer-email" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> : <Link className="footer-email" href="/contact/">Technical enquiry form</Link>}
-          <a className="footer-contact-line" href={company.phoneHref}>{company.phone}</a>
+          <a className="footer-contact-line" href={company.whatsappHref} target="_blank" rel="noopener noreferrer">WhatsApp: {company.whatsapp}</a>
           <p className="footer-note">{company.address}<br />{company.hours}</p>
         </div>
       </div>

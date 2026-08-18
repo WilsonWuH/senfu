@@ -8,10 +8,12 @@ export const siteConfig = {
 
 export const company = {
   legalName: "深圳市森孚科技有限公司",
-  address: "深圳市福田区深南中路3037号南光捷佳大厦2521",
+  address: "Room 2521, Nanguang Jiejia Building, No. 3037 Shennan Middle Road, Futian District, Shenzhen, Guangdong, China",
   phone: "150 1385 6255",
   phoneHref: "tel:+8615013856255",
-  whatsappNumber: "8615013856255",
+  whatsapp: "+86 136 4570 0210",
+  whatsappNumber: "8613645700210",
+  whatsappHref: "https://wa.me/8613645700210",
   hours: "Monday–Friday, 09:00–18:00 (China Standard Time, UTC+8)",
   icp: "粤ICP备20045095号",
 };
