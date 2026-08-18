@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ProductMegaMenu } from "@/components/product-mega-menu";
 import { primaryNav } from "@/lib/site";
 
 export function SiteHeader() {
@@ -23,7 +24,8 @@ export function SiteHeader() {
           />
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
-          {primaryNav.map((item) => (
+          <ProductMegaMenu />
+          {primaryNav.slice(1).map((item) => (
             <Link key={item.href} href={item.href}>{item.label}</Link>
           ))}
         </nav>
