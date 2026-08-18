@@ -11,6 +11,7 @@ export const company = {
   address: "深圳市福田区深南中路3037号南光捷佳大厦2521",
   phone: "150 1385 6255",
   phoneHref: "tel:+8615013856255",
+  whatsappNumber: "8615013856255",
   hours: "Monday–Friday, 09:00–18:00 (China Standard Time, UTC+8)",
   icp: "粤ICP备20045095号",
 };
