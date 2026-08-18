@@ -67,6 +67,7 @@ export default function Page() {
           <div><dt>Website brand</dt><dd>{siteConfig.name}</dd></div>
           <div><dt>Address</dt><dd>{company.address}</dd></div>
           <div><dt>Phone</dt><dd><a href={company.phoneHref}>{company.phone}</a></dd></div>
+          <div><dt>WhatsApp</dt><dd><a href={company.whatsappHref} target="_blank" rel="noopener noreferrer">{company.whatsapp}</a></dd></div>
           <div><dt>Business hours</dt><dd>{company.hours}</dd></div>
           <div><dt>Registration</dt><dd>{company.icp}</dd></div>
         </dl>
