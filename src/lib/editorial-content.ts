@@ -1,4 +1,5 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
+import { masklessLithographySystemRfq } from "@/lib/maskless-lithography-rfq-article";
 import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-supplier-qualification-article";
 
 export type EditorialImage = {
@@ -110,6 +111,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-system-rfq": masklessLithographySystemRfq,
   "grayscale-lithography-system-selection": grayscaleLithographySystemSelection,
   "optical-encoder-supplier-qualification": opticalEncoderSupplierQualification,
   "incremental-vs-absolute-encoder": {
