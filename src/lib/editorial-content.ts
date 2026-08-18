@@ -1,4 +1,5 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
+import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-supplier-qualification-article";
 
 export type EditorialImage = {
   src: string;
@@ -47,6 +48,8 @@ export type EditorialPage = {
   conclusion?: string[];
   faq?: EditorialFaq[];
   sources?: { publisher: string; label: string; href: string }[];
+  midCta?: { eyebrow: string; title: string; description: string; label: string; href: string };
+  conclusionHeading?: string;
 };
 
 export const applicationPages: Record<string, EditorialPage> = {
@@ -108,6 +111,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 
 export const technologyPages: Record<string, EditorialPage> = {
   "grayscale-lithography-system-selection": grayscaleLithographySystemSelection,
+  "optical-encoder-supplier-qualification": opticalEncoderSupplierQualification,
   "incremental-vs-absolute-encoder": {
     eyebrow: "TECHNOLOGY / ENCODER ARCHITECTURE",
     title: "Incremental vs absolute encoder: which feedback system should you choose?",

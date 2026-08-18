@@ -26,7 +26,7 @@ export default function Page() {
     <section className="section resource-index-section">
       <div className="shell resource-grid">
         <article><span>01</span><h2>Certificates</h2><p>Model-level compliance records with covered-model scope kept explicit.</p><Link className="text-link" href="/resources/certificates/">View certificate registry <b>→</b></Link></article>
-        <article><span>02</span><h2>Application notes</h2><p>Engineering guides connect configuration choices to operating requirements. New: a process-based buyer guide for grayscale micro-optics lithography.</p><Link className="text-link" href="/technology/grayscale-lithography-system-selection/">Read the grayscale lithography guide <b>→</b></Link></article>
+        <article><span>02</span><h2>Application notes</h2><p>Engineering guides connect configuration choices to operating requirements. New: a European OEM checklist for optical encoder supplier qualification.</p><Link className="text-link" href="/technology/optical-encoder-supplier-qualification/">Read the supplier qualification guide <b>→</b></Link></article>
         <article><span>03</span><h2>Additional evidence</h2><p>Ask about test reports, application results or source files not yet published here.</p><Link className="text-link" href="/contact/#application-form">Request a document <b>→</b></Link></article>
       </div>
     </section>
