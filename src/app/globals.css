@@ -320,6 +320,7 @@ img { max-width: 100%; }
 .rfq-form label > span { color: #4d5a66; font: 570 10px/1.3 var(--font-geist-mono), monospace; text-transform: uppercase; }
 .rfq-form input, .rfq-form select, .rfq-form textarea { width: 100%; border: 1px solid #c9d1d8; border-radius: 0; background: white; padding: 13px 14px; color: var(--ink); outline: 0; }
 .rfq-form input:focus, .rfq-form select:focus, .rfq-form textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 2px rgba(23,105,170,.12); }
+.form-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .form-two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .consent { display: grid !important; grid-template-columns: 20px 1fr; align-items: start; }
 .consent input { width: 16px; height: 16px; margin: 1px 0 0; }
