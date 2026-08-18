@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   const emailReady = Boolean(siteConfig.email);
+  const formSubmitEndpoint = "https://formsubmit.co/wh1007209170@gmail.com";
   return <>
     <ListingHero eyebrow="TECHNICAL ENQUIRY" title="Discuss your application." description="The useful first conversation starts with operating requirements. Choose the relevant route and share what is already known." breadcrumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]} primaryHref={emailReady ? `mailto:${siteConfig.email}` : "#application-form"} primaryLabel={emailReady ? "Email SENFU directly" : "Prepare an application brief"} />
     <section className="section contact-section" id="application-form">
@@ -26,16 +27,21 @@ export default function Page() {
             <span>{company.hours}</span>
           </div>
         </div>
-        <form className="rfq-form" action={emailReady ? `mailto:${siteConfig.email}` : undefined} method={emailReady ? "post" : undefined} encType={emailReady ? "text/plain" : undefined}>
+        <form className="rfq-form" action={formSubmitEndpoint} method="post" encType="application/x-www-form-urlencoded">
+          <input type="hidden" name="_subject" value="New SENFU technical enquiry" />
+          <input type="hidden" name="_captcha" value="true" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_next" value="https://senfuprecision.com/contact/?submitted=1" />
+          <input className="form-honeypot" type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" />
           <label><span>Product area *</span><select name="Product area" required defaultValue=""><option value="" disabled>Select one</option><option>Optical encoder</option><option>Lithography system</option><option>Engineering resources</option><option>Other technical enquiry</option></select></label>
           <div className="form-two"><label><span>Name *</span><input name="Name" required autoComplete="name" /></label><label><span>Work email *</span><input name="Email" type="email" required autoComplete="email" /></label></div>
           <div className="form-two"><label><span>Company / institution *</span><input name="Company" required autoComplete="organization" /></label><label><span>Country / region *</span><input name="Country" required autoComplete="country-name" /></label></div>
           <label><span>Existing model or technology</span><input name="Existing model" placeholder="e.g. SMG20, ZML100A or current alternative" /></label>
           <label><span>Application and critical requirements *</span><textarea name="Application" required rows={7} placeholder="For encoders: resolution, travel, speed, interface, environment, space. For lithography: feature, substrate, resist, wavelength, overlay, grayscale, pattern format." /></label>
-          <label><span>Drawing or process brief (optional)</span><input name="Attachment note" placeholder="Add files in your email client after the enquiry draft opens" /></label>
+          <label><span>Drawing or process brief (optional)</span><input name="Attachment note" placeholder="Describe any drawing or process brief you will send separately" /></label>
           <label className="consent"><input type="checkbox" required name="Consent" value="Yes" /><span>I agree that SENFU may use this information to respond to my technical enquiry.</span></label>
-          <button className="button button-primary" type="submit" disabled={!emailReady}>{emailReady ? "Prepare enquiry email" : "Sales email pending configuration"} <span>→</span></button>
-          <p className="form-note">{emailReady ? "The form prepares an email draft addressed to SENFU. Add drawings or process files before sending." : "The form is visually complete; submission activates when a sales email is configured for launch."}</p>
+          <button className="button button-primary" type="submit">Send enquiry <span>→</span></button>
+          <p className="form-note">Your enquiry will be forwarded to SENFU by email. FormSubmit may ask the mailbox owner to activate the address on the first submission.</p>
         </form>
       </div>
     </section>
