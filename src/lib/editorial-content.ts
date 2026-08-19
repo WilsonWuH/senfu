@@ -1,4 +1,5 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
+import { electronBeamLithographySystemSelection } from "@/lib/electron-beam-lithography-system-selection-article";
 import { linearEncoderThermalErrorBudget } from "@/lib/linear-encoder-thermal-error-article";
 import { masklessLithographySystemRfq } from "@/lib/maskless-lithography-rfq-article";
 import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-supplier-qualification-article";
@@ -112,6 +113,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "electron-beam-lithography-system-selection": electronBeamLithographySystemSelection,
   "linear-encoder-thermal-error-budget": linearEncoderThermalErrorBudget,
   "maskless-lithography-system-rfq": masklessLithographySystemRfq,
   "grayscale-lithography-system-selection": grayscaleLithographySystemSelection,
