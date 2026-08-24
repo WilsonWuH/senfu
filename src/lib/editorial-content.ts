@@ -3,6 +3,20 @@ import { electronBeamLithographySystemSelection } from "@/lib/electron-beam-lith
 import { linearEncoderThermalErrorBudget } from "@/lib/linear-encoder-thermal-error-article";
 import { masklessLithographySystemRfq } from "@/lib/maskless-lithography-rfq-article";
 import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-supplier-qualification-article";
+import { semiconductorWaferStageEncoderIntegration } from "@/lib/semiconductor-wafer-stage-encoder-integration-article";
+import {
+  absoluteEncoderStartupRecovery,
+  dmdMasklessLithographyMemsPrototyping,
+  electronBeamLithographyAcceptanceTestPlan,
+  encoderSignalIntegrityEmcServo,
+  grayscaleLithographyCalibrationMicroOptics,
+  linearEncoderInstallationToleranceReadheadGap,
+  lithographySupplierQualificationProcessDemo,
+  masklessLithographySubstrateResistCompatibility,
+  photonicsLithographyOverlayMetrology,
+  rotaryEncoderSelectionWaferHandling,
+  vacuumEncoderOutgassingQualification,
+} from "@/lib/missed-recovery-articles";
 
 export type EditorialImage = {
   src: string;
@@ -118,6 +132,18 @@ export const technologyPages: Record<string, EditorialPage> = {
   "maskless-lithography-system-rfq": masklessLithographySystemRfq,
   "grayscale-lithography-system-selection": grayscaleLithographySystemSelection,
   "optical-encoder-supplier-qualification": opticalEncoderSupplierQualification,
+  "semiconductor-wafer-stage-encoder-integration": semiconductorWaferStageEncoderIntegration,
+  "rotary-encoder-selection-wafer-handling": rotaryEncoderSelectionWaferHandling,
+  "vacuum-encoder-outgassing-qualification": vacuumEncoderOutgassingQualification,
+  "photonics-lithography-overlay-metrology": photonicsLithographyOverlayMetrology,
+  "lithography-supplier-qualification-process-demo": lithographySupplierQualificationProcessDemo,
+  "absolute-encoder-startup-recovery": absoluteEncoderStartupRecovery,
+  "encoder-signal-integrity-emc-servo": encoderSignalIntegrityEmcServo,
+  "linear-encoder-installation-tolerance-readhead-gap": linearEncoderInstallationToleranceReadheadGap,
+  "maskless-lithography-substrate-resist-compatibility": masklessLithographySubstrateResistCompatibility,
+  "dmd-maskless-lithography-mems-prototyping": dmdMasklessLithographyMemsPrototyping,
+  "grayscale-lithography-calibration-micro-optics": grayscaleLithographyCalibrationMicroOptics,
+  "electron-beam-lithography-acceptance-test-plan": electronBeamLithographyAcceptanceTestPlan,
   "incremental-vs-absolute-encoder": {
     eyebrow: "TECHNOLOGY / ENCODER ARCHITECTURE",
     title: "Incremental vs absolute encoder: which feedback system should you choose?",
