@@ -7,6 +7,7 @@ import { linearEncoderThermalErrorBudget } from "@/lib/linear-encoder-thermal-er
 import { masklessLithographySystemRfq } from "@/lib/maskless-lithography-rfq-article";
 import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-supplier-qualification-article";
 import { semiconductorWaferStageEncoderIntegration } from "@/lib/semiconductor-wafer-stage-encoder-integration-article";
+import { dualDriveGantryEncoderSynchronization } from "@/lib/dual-drive-gantry-encoder-synchronization-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -130,6 +131,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "dual-drive-gantry-encoder-synchronization": dualDriveGantryEncoderSynchronization,
   "encoder-interpolation-error-testing": encoderInterpolationErrorTesting,
   "air-bearing-stage-encoder-selection": airBearingStageEncoderSelection,
   "encoder-subdivision-error-position-jitter": encoderSubdivisionErrorPositionJitter,
