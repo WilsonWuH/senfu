@@ -1,6 +1,8 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
 import { electronBeamLithographySystemSelection } from "@/lib/electron-beam-lithography-system-selection-article";
 import { encoderInterpolationErrorTesting } from "@/lib/encoder-interpolation-error-testing-article";
+import { airBearingStageEncoderSelection } from "@/lib/air-bearing-stage-encoder-selection-article";
+import { encoderSubdivisionErrorPositionJitter } from "@/lib/encoder-subdivision-error-position-jitter-article";
 import { linearEncoderThermalErrorBudget } from "@/lib/linear-encoder-thermal-error-article";
 import { masklessLithographySystemRfq } from "@/lib/maskless-lithography-rfq-article";
 import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-supplier-qualification-article";
@@ -129,6 +131,8 @@ export const applicationPages: Record<string, EditorialPage> = {
 
 export const technologyPages: Record<string, EditorialPage> = {
   "encoder-interpolation-error-testing": encoderInterpolationErrorTesting,
+  "air-bearing-stage-encoder-selection": airBearingStageEncoderSelection,
+  "encoder-subdivision-error-position-jitter": encoderSubdivisionErrorPositionJitter,
   "electron-beam-lithography-system-selection": electronBeamLithographySystemSelection,
   "linear-encoder-thermal-error-budget": linearEncoderThermalErrorBudget,
   "maskless-lithography-system-rfq": masklessLithographySystemRfq,

@@ -1,44 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Cloudflare Pages 静态托管：完整导出到 out/ 目录
+  output: "export",
   trailingSlash: true,
   poweredByHeader: false,
   images: {
-    formats: ["image/avif", "image/webp"],
+    // 静态导出模式不支持 Next 图片优化服务，直接输出原始图片
+    unoptimized: true,
   },
-  async redirects() {
-    return [
-      {
-        source: "/article-detail",
-        has: [{ type: "query", key: "code", value: "0041f028d7186a668f007b5289db2e52" }],
-        destination: "/about/",
-        permanent: true,
-      },
-      {
-        source: "/product/:path*",
-        destination: "/products/",
-        permanent: true,
-      },
-      {
-        source: "/article/:path*",
-        destination: "/resources/",
-        permanent: true,
-      },
-    ];
-  },
-  async headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-          { key: "X-Frame-Options", value: "SAMEORIGIN" },
-          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
-        ],
-      },
-    ];
-  },
+  // 重定向与自定义响应头改由 Cloudflare Pages 的 _redirects / _headers 承担
 };
 
 export default nextConfig;

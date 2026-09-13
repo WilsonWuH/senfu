@@ -1,0 +1,6 @@
+# Cloudflare Pages 重定向规则（原 next.config.ts redirects 迁移）
+# 带 code 查询参数的旧文章链接 → /about/
+/article-detail code=0041f028d7186a668f007b5289db2e52 /about/ 301
+# 旧产品/文章路径 → 栏目首页
+/product/* /products/ 301
+/article/* /resources/ 301

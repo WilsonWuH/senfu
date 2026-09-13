@@ -6,8 +6,8 @@
     "dev": "next dev",
     "data:sync": "node scripts/sync-public-data.mjs",
     "data:validate": "node scripts/validate-public-data.mjs",
-    "predev": "pnpm data:sync",
-    "prebuild": "pnpm data:sync && pnpm data:validate",
+    "predev": "node scripts/sync-public-data.mjs",
+    "prebuild": "node scripts/sync-public-data.mjs && node scripts/validate-public-data.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

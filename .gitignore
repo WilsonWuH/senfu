@@ -50,3 +50,6 @@ CLAUDE.md
 next-env.d.ts
 
 .vercel
+
+# 本项目使用 pnpm（packageManager 字段锁定），忽略 npm 生成的锁文件
+package-lock.json

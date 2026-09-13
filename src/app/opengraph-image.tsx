@@ -1,5 +1,8 @@
 import { ImageResponse } from "next/og";
 
+// 静态导出（output: "export"）要求图片生成路由显式声明为静态
+export const dynamic = "force-static";
+
 export const alt = "SENFU Technology — Precision Positioning & Micro/Nano Fabrication";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";

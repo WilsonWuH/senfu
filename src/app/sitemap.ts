@@ -3,6 +3,9 @@ import { applicationPages, technologyPages } from "@/lib/editorial-content";
 import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
+// 静态导出（output: "export"）要求 metadata 路由显式声明为静态
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const fixed = [
     "", "/products/", "/optical-encoders/", "/optical-encoders/incremental-linear/", "/optical-encoders/absolute-linear/", "/optical-encoders/rotary/", "/optical-encoders/vacuum/",
