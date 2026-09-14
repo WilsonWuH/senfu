@@ -9,6 +9,7 @@ import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-suppl
 import { semiconductorWaferStageEncoderIntegration } from "@/lib/semiconductor-wafer-stage-encoder-integration-article";
 import { dualDriveGantryEncoderSynchronization } from "@/lib/dual-drive-gantry-encoder-synchronization-article";
 import { masklessLithographyCostOfOwnership } from "@/lib/maskless-lithography-cost-of-ownership-article";
+import { linearEncoderInstallationAlignmentErrors } from "@/lib/linear-encoder-installation-alignment-errors-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -134,6 +135,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 export const technologyPages: Record<string, EditorialPage> = {
   "dual-drive-gantry-encoder-synchronization": dualDriveGantryEncoderSynchronization,
   "maskless-lithography-cost-of-ownership": masklessLithographyCostOfOwnership,
+  "linear-encoder-installation-alignment-errors": linearEncoderInstallationAlignmentErrors,
   "encoder-interpolation-error-testing": encoderInterpolationErrorTesting,
   "air-bearing-stage-encoder-selection": airBearingStageEncoderSelection,
   "encoder-subdivision-error-position-jitter": encoderSubdivisionErrorPositionJitter,
