@@ -10,6 +10,7 @@ import { semiconductorWaferStageEncoderIntegration } from "@/lib/semiconductor-w
 import { dualDriveGantryEncoderSynchronization } from "@/lib/dual-drive-gantry-encoder-synchronization-article";
 import { masklessLithographyCostOfOwnership } from "@/lib/maskless-lithography-cost-of-ownership-article";
 import { linearEncoderInstallationAlignmentErrors } from "@/lib/linear-encoder-installation-alignment-errors-article";
+import { angularEncoderAccuracyVerificationProtocol } from "@/lib/angular-encoder-accuracy-verification-protocol-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -133,6 +134,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "angular-encoder-accuracy-verification-protocol": angularEncoderAccuracyVerificationProtocol,
   "dual-drive-gantry-encoder-synchronization": dualDriveGantryEncoderSynchronization,
   "maskless-lithography-cost-of-ownership": masklessLithographyCostOfOwnership,
   "linear-encoder-installation-alignment-errors": linearEncoderInstallationAlignmentErrors,
