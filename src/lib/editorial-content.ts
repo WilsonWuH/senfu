@@ -8,6 +8,7 @@ import { masklessLithographySystemRfq } from "@/lib/maskless-lithography-rfq-art
 import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-supplier-qualification-article";
 import { semiconductorWaferStageEncoderIntegration } from "@/lib/semiconductor-wafer-stage-encoder-integration-article";
 import { dualDriveGantryEncoderSynchronization } from "@/lib/dual-drive-gantry-encoder-synchronization-article";
+import { masklessLithographyCostOfOwnership } from "@/lib/maskless-lithography-cost-of-ownership-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -132,6 +133,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 
 export const technologyPages: Record<string, EditorialPage> = {
   "dual-drive-gantry-encoder-synchronization": dualDriveGantryEncoderSynchronization,
+  "maskless-lithography-cost-of-ownership": masklessLithographyCostOfOwnership,
   "encoder-interpolation-error-testing": encoderInterpolationErrorTesting,
   "air-bearing-stage-encoder-selection": airBearingStageEncoderSelection,
   "encoder-subdivision-error-position-jitter": encoderSubdivisionErrorPositionJitter,
