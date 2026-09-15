@@ -13,6 +13,7 @@ import { linearEncoderInstallationAlignmentErrors } from "@/lib/linear-encoder-i
 import { angularEncoderAccuracyVerificationProtocol } from "@/lib/angular-encoder-accuracy-verification-protocol-article";
 import { laserDirectImagingVsMasklessLithography } from "@/lib/laser-direct-imaging-vs-maskless-lithography-article";
 import { encoderEmcCableRoutingGroundingGuide } from "@/lib/encoder-emc-cable-routing-grounding-guide-article";
+import { encoderCleanroomUnpackingStorageInspectionGuideArticle } from "@/lib/encoder-cleanroom-unpacking-storage-inspection-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -136,6 +137,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "encoder-cleanroom-unpacking-storage-inspection-guide": encoderCleanroomUnpackingStorageInspectionGuideArticle,
   "angular-encoder-accuracy-verification-protocol": angularEncoderAccuracyVerificationProtocol,
   "laser-direct-imaging-vs-maskless-lithography": laserDirectImagingVsMasklessLithography,
   "encoder-emc-cable-routing-grounding-guide": encoderEmcCableRoutingGroundingGuide,
