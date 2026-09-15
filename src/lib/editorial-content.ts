@@ -12,6 +12,7 @@ import { masklessLithographyCostOfOwnership } from "@/lib/maskless-lithography-c
 import { linearEncoderInstallationAlignmentErrors } from "@/lib/linear-encoder-installation-alignment-errors-article";
 import { angularEncoderAccuracyVerificationProtocol } from "@/lib/angular-encoder-accuracy-verification-protocol-article";
 import { laserDirectImagingVsMasklessLithography } from "@/lib/laser-direct-imaging-vs-maskless-lithography-article";
+import { encoderEmcCableRoutingGroundingGuide } from "@/lib/encoder-emc-cable-routing-grounding-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -137,6 +138,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 export const technologyPages: Record<string, EditorialPage> = {
   "angular-encoder-accuracy-verification-protocol": angularEncoderAccuracyVerificationProtocol,
   "laser-direct-imaging-vs-maskless-lithography": laserDirectImagingVsMasklessLithography,
+  "encoder-emc-cable-routing-grounding-guide": encoderEmcCableRoutingGroundingGuide,
   "dual-drive-gantry-encoder-synchronization": dualDriveGantryEncoderSynchronization,
   "maskless-lithography-cost-of-ownership": masklessLithographyCostOfOwnership,
   "linear-encoder-installation-alignment-errors": linearEncoderInstallationAlignmentErrors,
