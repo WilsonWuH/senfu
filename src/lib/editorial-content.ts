@@ -14,6 +14,7 @@ import { angularEncoderAccuracyVerificationProtocol } from "@/lib/angular-encode
 import { laserDirectImagingVsMasklessLithography } from "@/lib/laser-direct-imaging-vs-maskless-lithography-article";
 import { encoderEmcCableRoutingGroundingGuide } from "@/lib/encoder-emc-cable-routing-grounding-guide-article";
 import { encoderCleanroomUnpackingStorageInspectionGuideArticle } from "@/lib/encoder-cleanroom-unpacking-storage-inspection-guide-article";
+import { absoluteEncoderDataRetentionPowerLossGuideArticle } from "@/lib/absolute-encoder-data-retention-power-loss-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -137,6 +138,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "absolute-encoder-data-retention-power-loss-guide": absoluteEncoderDataRetentionPowerLossGuideArticle,
   "encoder-cleanroom-unpacking-storage-inspection-guide": encoderCleanroomUnpackingStorageInspectionGuideArticle,
   "angular-encoder-accuracy-verification-protocol": angularEncoderAccuracyVerificationProtocol,
   "laser-direct-imaging-vs-maskless-lithography": laserDirectImagingVsMasklessLithography,
