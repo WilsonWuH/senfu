@@ -15,6 +15,7 @@ import { laserDirectImagingVsMasklessLithography } from "@/lib/laser-direct-imag
 import { encoderEmcCableRoutingGroundingGuide } from "@/lib/encoder-emc-cable-routing-grounding-guide-article";
 import { encoderCleanroomUnpackingStorageInspectionGuideArticle } from "@/lib/encoder-cleanroom-unpacking-storage-inspection-guide-article";
 import { absoluteEncoderDataRetentionPowerLossGuideArticle } from "@/lib/absolute-encoder-data-retention-power-loss-guide-article";
+import { lithographyStageStitchingAccuracyEncoderGuideArticle } from "@/lib/lithography-stage-stitching-accuracy-encoder-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -138,6 +139,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "lithography-stage-stitching-accuracy-encoder-guide": lithographyStageStitchingAccuracyEncoderGuideArticle,
   "absolute-encoder-data-retention-power-loss-guide": absoluteEncoderDataRetentionPowerLossGuideArticle,
   "encoder-cleanroom-unpacking-storage-inspection-guide": encoderCleanroomUnpackingStorageInspectionGuideArticle,
   "angular-encoder-accuracy-verification-protocol": angularEncoderAccuracyVerificationProtocol,
