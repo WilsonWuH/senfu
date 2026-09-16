@@ -16,6 +16,7 @@ import { encoderEmcCableRoutingGroundingGuide } from "@/lib/encoder-emc-cable-ro
 import { encoderCleanroomUnpackingStorageInspectionGuideArticle } from "@/lib/encoder-cleanroom-unpacking-storage-inspection-guide-article";
 import { absoluteEncoderDataRetentionPowerLossGuideArticle } from "@/lib/absolute-encoder-data-retention-power-loss-guide-article";
 import { lithographyStageStitchingAccuracyEncoderGuideArticle } from "@/lib/lithography-stage-stitching-accuracy-encoder-guide-article";
+import { opticalEncoderIpRatingEnvironmentalSealingGuide } from "@/lib/optical-encoder-ip-rating-environmental-sealing-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -139,6 +140,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-ip-rating-environmental-sealing-guide": opticalEncoderIpRatingEnvironmentalSealingGuide,
   "lithography-stage-stitching-accuracy-encoder-guide": lithographyStageStitchingAccuracyEncoderGuideArticle,
   "absolute-encoder-data-retention-power-loss-guide": absoluteEncoderDataRetentionPowerLossGuideArticle,
   "encoder-cleanroom-unpacking-storage-inspection-guide": encoderCleanroomUnpackingStorageInspectionGuideArticle,
