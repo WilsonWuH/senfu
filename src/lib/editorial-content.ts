@@ -19,6 +19,7 @@ import { lithographyStageStitchingAccuracyEncoderGuideArticle } from "@/lib/lith
 import { opticalEncoderIpRatingEnvironmentalSealingGuide } from "@/lib/optical-encoder-ip-rating-environmental-sealing-guide-article";
 import { masklessLithographyThroughputWritingTimeGuide } from "@/lib/maskless-lithography-throughput-writing-time-guide-article";
 import { linearMotorStageEncoderFeedbackTuningGuide } from "@/lib/linear-motor-stage-encoder-feedback-tuning-guide-article";
+import { masklessLithographyDoseCalibrationUniformity } from "@/lib/maskless-lithography-dose-calibration-uniformity-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -142,6 +143,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-dose-calibration-uniformity": masklessLithographyDoseCalibrationUniformity,
   "linear-motor-stage-encoder-feedback-tuning-guide": linearMotorStageEncoderFeedbackTuningGuide,
   "maskless-lithography-throughput-writing-time-guide": masklessLithographyThroughputWritingTimeGuide,
   "optical-encoder-ip-rating-environmental-sealing-guide": opticalEncoderIpRatingEnvironmentalSealingGuide,
