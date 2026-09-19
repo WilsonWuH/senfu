@@ -23,6 +23,7 @@ import { masklessLithographyDoseCalibrationUniformity } from "@/lib/maskless-lit
 import { linearEncoderVelocityFeedbackServoBandwidth } from "@/lib/linear-encoder-velocity-feedback-servo-bandwidth-article";
 import { siliconPhotonicsPackagingAlignmentEncoderFeedback } from "@/lib/silicon-photonics-packaging-alignment-encoder-feedback-article";
 import { opticalEncoderVibrationShockSurvivalTestingGuide } from "@/lib/optical-encoder-vibration-shock-survival-testing-guide-article";
+import { linearEncoderSignalQualityDistortionTroubleshootingGuide } from "@/lib/linear-encoder-signal-quality-distortion-troubleshooting-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -146,6 +147,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "linear-encoder-signal-quality-distortion-troubleshooting-guide": linearEncoderSignalQualityDistortionTroubleshootingGuide,
   "optical-encoder-vibration-shock-survival-testing-guide": opticalEncoderVibrationShockSurvivalTestingGuide,
   "linear-encoder-velocity-feedback-servo-bandwidth": linearEncoderVelocityFeedbackServoBandwidth,
   "silicon-photonics-packaging-alignment-encoder-feedback": siliconPhotonicsPackagingAlignmentEncoderFeedback,
