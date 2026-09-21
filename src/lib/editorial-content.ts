@@ -9,6 +9,7 @@ import { opticalEncoderSupplierQualification } from "@/lib/optical-encoder-suppl
 import { semiconductorWaferStageEncoderIntegration } from "@/lib/semiconductor-wafer-stage-encoder-integration-article";
 import { dualDriveGantryEncoderSynchronization } from "@/lib/dual-drive-gantry-encoder-synchronization-article";
 import { opticalEncoderResolutionVsAccuracyTradeoffs } from "@/lib/optical-encoder-resolution-vs-accuracy-tradeoffs-article";
+import { angularEncoderAxisEccentricityErrorGuide } from "@/lib/angular-encoder-axis-eccentricity-error-guide-article";
 import { masklessLithographyCostOfOwnership } from "@/lib/maskless-lithography-cost-of-ownership-article";
 import { linearEncoderInstallationAlignmentErrors } from "@/lib/linear-encoder-installation-alignment-errors-article";
 import { angularEncoderAccuracyVerificationProtocol } from "@/lib/angular-encoder-accuracy-verification-protocol-article";
@@ -152,6 +153,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 
 export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-resolution-vs-accuracy-tradeoffs": opticalEncoderResolutionVsAccuracyTradeoffs,
+  "angular-encoder-axis-eccentricity-error-guide": angularEncoderAxisEccentricityErrorGuide,
   "absolute-incremental-encoder-selection-machine-guide": absoluteIncrementalEncoderSelectionMachineGuide,
   "maskless-lithography-alignment-overlay-accuracy-guide": masklessLithographyAlignmentOverlayAccuracyGuide,
   "maskless-lithography-substrate-chuck-flatness-focus-control-guide": masklessLithographySubstrateChuckFlatnessFocusControlGuide,
