@@ -29,6 +29,7 @@ import { linearEncoderSignalQualityDistortionTroubleshootingGuide } from "@/lib/
 import { masklessLithographySubstrateChuckFlatnessFocusControlGuide } from "@/lib/maskless-lithography-substrate-chuck-flatness-focus-control-guide-article";
 import { absoluteIncrementalEncoderSelectionMachineGuide } from "@/lib/absolute-incremental-encoder-selection-machine-guide-article";
 import { masklessLithographyAlignmentOverlayAccuracyGuide } from "@/lib/maskless-lithography-alignment-overlay-accuracy-guide-article";
+import { masklessLithographyDataPreparationPatternFidelity } from "@/lib/maskless-lithography-data-preparation-pattern-fidelity-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -156,6 +157,7 @@ export const technologyPages: Record<string, EditorialPage> = {
   "angular-encoder-axis-eccentricity-error-guide": angularEncoderAxisEccentricityErrorGuide,
   "absolute-incremental-encoder-selection-machine-guide": absoluteIncrementalEncoderSelectionMachineGuide,
   "maskless-lithography-alignment-overlay-accuracy-guide": masklessLithographyAlignmentOverlayAccuracyGuide,
+  "maskless-lithography-data-preparation-pattern-fidelity": masklessLithographyDataPreparationPatternFidelity,
   "maskless-lithography-substrate-chuck-flatness-focus-control-guide": masklessLithographySubstrateChuckFlatnessFocusControlGuide,
   "linear-encoder-signal-quality-distortion-troubleshooting-guide": linearEncoderSignalQualityDistortionTroubleshootingGuide,
   "optical-encoder-vibration-shock-survival-testing-guide": opticalEncoderVibrationShockSurvivalTestingGuide,
