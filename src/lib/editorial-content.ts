@@ -30,6 +30,7 @@ import { masklessLithographySubstrateChuckFlatnessFocusControlGuide } from "@/li
 import { absoluteIncrementalEncoderSelectionMachineGuide } from "@/lib/absolute-incremental-encoder-selection-machine-guide-article";
 import { masklessLithographyAlignmentOverlayAccuracyGuide } from "@/lib/maskless-lithography-alignment-overlay-accuracy-guide-article";
 import { masklessLithographyDataPreparationPatternFidelity } from "@/lib/maskless-lithography-data-preparation-pattern-fidelity-article";
+import { opticalEncoderIlluminatorLedLifetimeGuide } from "@/lib/optical-encoder-illuminator-led-lifetime-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -153,6 +154,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-illuminator-led-lifetime-guide": opticalEncoderIlluminatorLedLifetimeGuide,
   "optical-encoder-resolution-vs-accuracy-tradeoffs": opticalEncoderResolutionVsAccuracyTradeoffs,
   "angular-encoder-axis-eccentricity-error-guide": angularEncoderAxisEccentricityErrorGuide,
   "absolute-incremental-encoder-selection-machine-guide": absoluteIncrementalEncoderSelectionMachineGuide,
