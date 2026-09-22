@@ -33,6 +33,7 @@ import { masklessLithographyDataPreparationPatternFidelity } from "@/lib/maskles
 import { masklessLithographySiteEnvironmentalRequirementsGuide } from "@/lib/maskless-lithography-site-environmental-requirements-guide-article";
 import { opticalEncoderIlluminatorLedLifetimeGuide } from "@/lib/optical-encoder-illuminator-led-lifetime-guide-article";
 import { opticalEncoderObsolescenceLifecycleSupportGuide } from "@/lib/optical-encoder-obsolescence-lifecycle-support-guide-article";
+import { opticalEncoderInterfaceProtocolsBissEndatGuide } from "@/lib/optical-encoder-interface-protocols-biss-endat-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -156,6 +157,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-interface-protocols-biss-endat-guide": opticalEncoderInterfaceProtocolsBissEndatGuide,
   "optical-encoder-obsolescence-lifecycle-support-guide": opticalEncoderObsolescenceLifecycleSupportGuide,
   "maskless-lithography-site-environmental-requirements-guide": masklessLithographySiteEnvironmentalRequirementsGuide,
   "optical-encoder-illuminator-led-lifetime-guide": opticalEncoderIlluminatorLedLifetimeGuide,
