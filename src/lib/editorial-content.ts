@@ -36,6 +36,7 @@ import { opticalEncoderObsolescenceLifecycleSupportGuide } from "@/lib/optical-e
 import { opticalEncoderInterfaceProtocolsBissEndatGuide } from "@/lib/optical-encoder-interface-protocols-biss-endat-guide-article";
 import { opticalEncoderAbbeErrorMeasurementGuide } from "@/lib/optical-encoder-abbe-error-measurement-guide-article";
 import { opticalEncoderIncomingAcceptanceTestGuide } from "@/lib/optical-encoder-incoming-acceptance-test-guide-article";
+import { opticalEncoderScaleMaterialSelectionGuide } from "@/lib/optical-encoder-scale-material-selection-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -159,6 +160,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-scale-material-selection-guide": opticalEncoderScaleMaterialSelectionGuide,
   "optical-encoder-abbe-error-measurement-guide": opticalEncoderAbbeErrorMeasurementGuide,
   "optical-encoder-interface-protocols-biss-endat-guide": opticalEncoderInterfaceProtocolsBissEndatGuide,
   "optical-encoder-obsolescence-lifecycle-support-guide": opticalEncoderObsolescenceLifecycleSupportGuide,
