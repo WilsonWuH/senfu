@@ -35,6 +35,7 @@ import { opticalEncoderIlluminatorLedLifetimeGuide } from "@/lib/optical-encoder
 import { opticalEncoderObsolescenceLifecycleSupportGuide } from "@/lib/optical-encoder-obsolescence-lifecycle-support-guide-article";
 import { opticalEncoderInterfaceProtocolsBissEndatGuide } from "@/lib/optical-encoder-interface-protocols-biss-endat-guide-article";
 import { opticalEncoderAbbeErrorMeasurementGuide } from "@/lib/optical-encoder-abbe-error-measurement-guide-article";
+import { opticalEncoderIncomingAcceptanceTestGuide } from "@/lib/optical-encoder-incoming-acceptance-test-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -180,6 +181,7 @@ export const technologyPages: Record<string, EditorialPage> = {
   "lithography-stage-stitching-accuracy-encoder-guide": lithographyStageStitchingAccuracyEncoderGuideArticle,
   "absolute-encoder-data-retention-power-loss-guide": absoluteEncoderDataRetentionPowerLossGuideArticle,
   "encoder-cleanroom-unpacking-storage-inspection-guide": encoderCleanroomUnpackingStorageInspectionGuideArticle,
+  "optical-encoder-incoming-acceptance-test-guide": opticalEncoderIncomingAcceptanceTestGuide,
   "angular-encoder-accuracy-verification-protocol": angularEncoderAccuracyVerificationProtocol,
   "laser-direct-imaging-vs-maskless-lithography": laserDirectImagingVsMasklessLithography,
   "encoder-emc-cable-routing-grounding-guide": encoderEmcCableRoutingGroundingGuide,
