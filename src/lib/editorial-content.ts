@@ -38,6 +38,7 @@ import { opticalEncoderAbbeErrorMeasurementGuide } from "@/lib/optical-encoder-a
 import { opticalEncoderIncomingAcceptanceTestGuide } from "@/lib/optical-encoder-incoming-acceptance-test-guide-article";
 import { opticalEncoderScaleMaterialSelectionGuide } from "@/lib/optical-encoder-scale-material-selection-guide-article";
 import { masklessLithographyUvLightSourceSelectionGuide } from "@/lib/maskless-lithography-uv-light-source-selection-guide-article";
+import { longStrokeLinearStageEncoderScaleSplicingGuide } from "@/lib/long-stroke-linear-stage-encoder-scale-splicing-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -162,6 +163,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 
 export const technologyPages: Record<string, EditorialPage> = {
   "maskless-lithography-uv-light-source-selection-guide": masklessLithographyUvLightSourceSelectionGuide,
+  "long-stroke-linear-stage-encoder-scale-splicing-guide": longStrokeLinearStageEncoderScaleSplicingGuide,
   "optical-encoder-scale-material-selection-guide": opticalEncoderScaleMaterialSelectionGuide,
   "optical-encoder-abbe-error-measurement-guide": opticalEncoderAbbeErrorMeasurementGuide,
   "optical-encoder-interface-protocols-biss-endat-guide": opticalEncoderInterfaceProtocolsBissEndatGuide,
