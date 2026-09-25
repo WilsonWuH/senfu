@@ -39,6 +39,7 @@ import { opticalEncoderIncomingAcceptanceTestGuide } from "@/lib/optical-encoder
 import { opticalEncoderScaleMaterialSelectionGuide } from "@/lib/optical-encoder-scale-material-selection-guide-article";
 import { masklessLithographyUvLightSourceSelectionGuide } from "@/lib/maskless-lithography-uv-light-source-selection-guide-article";
 import { longStrokeLinearStageEncoderScaleSplicingGuide } from "@/lib/long-stroke-linear-stage-encoder-scale-splicing-guide-article";
+import { masklessLithographyResistProcessingWindowGuide } from "@/lib/maskless-lithography-resist-processing-window-guide-article";
 import { opticalEncoderIncrementalVsAbsoluteSelectionGuide } from "@/lib/optical-encoder-incremental-vs-absolute-selection-guide-article";
 import { opticalEncoderSignalSplitterDualOutputGuide } from "@/lib/optical-encoder-signal-splitter-dual-output-guide-article";
 import {
@@ -168,6 +169,7 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-incremental-vs-absolute-selection-guide": opticalEncoderIncrementalVsAbsoluteSelectionGuide,
   "maskless-lithography-uv-light-source-selection-guide": masklessLithographyUvLightSourceSelectionGuide,
   "long-stroke-linear-stage-encoder-scale-splicing-guide": longStrokeLinearStageEncoderScaleSplicingGuide,
+  "maskless-lithography-resist-processing-window-guide": masklessLithographyResistProcessingWindowGuide,
   "optical-encoder-scale-material-selection-guide": opticalEncoderScaleMaterialSelectionGuide,
   "optical-encoder-abbe-error-measurement-guide": opticalEncoderAbbeErrorMeasurementGuide,
   "optical-encoder-interface-protocols-biss-endat-guide": opticalEncoderInterfaceProtocolsBissEndatGuide,
