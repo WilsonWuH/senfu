@@ -42,6 +42,7 @@ import { longStrokeLinearStageEncoderScaleSplicingGuide } from "@/lib/long-strok
 import { masklessLithographyResistProcessingWindowGuide } from "@/lib/maskless-lithography-resist-processing-window-guide-article";
 import { opticalEncoderIncrementalVsAbsoluteSelectionGuide } from "@/lib/optical-encoder-incremental-vs-absolute-selection-guide-article";
 import { opticalEncoderSignalSplitterDualOutputGuide } from "@/lib/optical-encoder-signal-splitter-dual-output-guide-article";
+import { opticalVsMagneticEncoderFeedbackSelectionGuide } from "@/lib/optical-vs-magnetic-encoder-feedback-selection-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -165,6 +166,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-vs-magnetic-encoder-feedback-selection-guide": opticalVsMagneticEncoderFeedbackSelectionGuide,
   "optical-encoder-signal-splitter-dual-output-guide": opticalEncoderSignalSplitterDualOutputGuide,
   "optical-encoder-incremental-vs-absolute-selection-guide": opticalEncoderIncrementalVsAbsoluteSelectionGuide,
   "maskless-lithography-uv-light-source-selection-guide": masklessLithographyUvLightSourceSelectionGuide,
