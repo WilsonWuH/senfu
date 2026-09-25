@@ -40,6 +40,7 @@ import { opticalEncoderScaleMaterialSelectionGuide } from "@/lib/optical-encoder
 import { masklessLithographyUvLightSourceSelectionGuide } from "@/lib/maskless-lithography-uv-light-source-selection-guide-article";
 import { longStrokeLinearStageEncoderScaleSplicingGuide } from "@/lib/long-stroke-linear-stage-encoder-scale-splicing-guide-article";
 import { opticalEncoderIncrementalVsAbsoluteSelectionGuide } from "@/lib/optical-encoder-incremental-vs-absolute-selection-guide-article";
+import { opticalEncoderSignalSplitterDualOutputGuide } from "@/lib/optical-encoder-signal-splitter-dual-output-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -163,6 +164,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-signal-splitter-dual-output-guide": opticalEncoderSignalSplitterDualOutputGuide,
   "optical-encoder-incremental-vs-absolute-selection-guide": opticalEncoderIncrementalVsAbsoluteSelectionGuide,
   "maskless-lithography-uv-light-source-selection-guide": masklessLithographyUvLightSourceSelectionGuide,
   "long-stroke-linear-stage-encoder-scale-splicing-guide": longStrokeLinearStageEncoderScaleSplicingGuide,
