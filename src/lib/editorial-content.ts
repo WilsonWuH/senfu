@@ -43,6 +43,7 @@ import { masklessLithographyResistProcessingWindowGuide } from "@/lib/maskless-l
 import { opticalEncoderIncrementalVsAbsoluteSelectionGuide } from "@/lib/optical-encoder-incremental-vs-absolute-selection-guide-article";
 import { opticalEncoderSignalSplitterDualOutputGuide } from "@/lib/optical-encoder-signal-splitter-dual-output-guide-article";
 import { opticalVsMagneticEncoderFeedbackSelectionGuide } from "@/lib/optical-vs-magnetic-encoder-feedback-selection-guide-article";
+import { masklessLithographyQuantum2dMaterialPrototypingGuide } from "@/lib/maskless-lithography-quantum-2d-material-prototyping-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -166,6 +167,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-quantum-2d-material-prototyping-guide": masklessLithographyQuantum2dMaterialPrototypingGuide,
   "optical-vs-magnetic-encoder-feedback-selection-guide": opticalVsMagneticEncoderFeedbackSelectionGuide,
   "optical-encoder-signal-splitter-dual-output-guide": opticalEncoderSignalSplitterDualOutputGuide,
   "optical-encoder-incremental-vs-absolute-selection-guide": opticalEncoderIncrementalVsAbsoluteSelectionGuide,
