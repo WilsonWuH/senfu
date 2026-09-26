@@ -44,6 +44,7 @@ import { linearStageAccuracyLaserInterferometerVerificationGuide } from "@/lib/l
 import { opticalEncoderIncrementalVsAbsoluteSelectionGuide } from "@/lib/optical-encoder-incremental-vs-absolute-selection-guide-article";
 import { opticalEncoderSignalSplitterDualOutputGuide } from "@/lib/optical-encoder-signal-splitter-dual-output-guide-article";
 import { opticalVsMagneticEncoderFeedbackSelectionGuide } from "@/lib/optical-vs-magnetic-encoder-feedback-selection-guide-article";
+import { opticalEncoderReferenceMarkDatumStrategiesGuideArticle } from "@/lib/optical-encoder-reference-mark-datum-strategies-guide-article";
 import { masklessLithographyQuantum2dMaterialPrototypingGuide } from "@/lib/maskless-lithography-quantum-2d-material-prototyping-guide-article";
 import {
   absoluteEncoderStartupRecovery,
@@ -168,6 +169,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-reference-mark-datum-strategies-guide": opticalEncoderReferenceMarkDatumStrategiesGuideArticle,
   "maskless-lithography-quantum-2d-material-prototyping-guide": masklessLithographyQuantum2dMaterialPrototypingGuide,
   "optical-vs-magnetic-encoder-feedback-selection-guide": opticalVsMagneticEncoderFeedbackSelectionGuide,
   "optical-encoder-signal-splitter-dual-output-guide": opticalEncoderSignalSplitterDualOutputGuide,
