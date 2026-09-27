@@ -42,6 +42,7 @@ import { longStrokeLinearStageEncoderScaleSplicingGuide } from "@/lib/long-strok
 import { masklessLithographyResistProcessingWindowGuide } from "@/lib/maskless-lithography-resist-processing-window-guide-article";
 import { linearStageAccuracyLaserInterferometerVerificationGuide } from "@/lib/linear-stage-accuracy-laser-interferometer-verification-guide-article";
 import { opticalEncoderIncrementalVsAbsoluteSelectionGuide } from "@/lib/optical-encoder-incremental-vs-absolute-selection-guide-article";
+import { masklessLithographyContactProximityPrintingComparisonGuideArticle } from "@/lib/maskless-lithography-contact-proximity-printing-comparison-guide-article";
 import { opticalEncoderSignalSplitterDualOutputGuide } from "@/lib/optical-encoder-signal-splitter-dual-output-guide-article";
 import { opticalVsMagneticEncoderFeedbackSelectionGuide } from "@/lib/optical-vs-magnetic-encoder-feedback-selection-guide-article";
 import { opticalEncoderReferenceMarkDatumStrategiesGuideArticle } from "@/lib/optical-encoder-reference-mark-datum-strategies-guide-article";
@@ -169,6 +170,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-contact-proximity-printing-comparison-guide": masklessLithographyContactProximityPrintingComparisonGuideArticle,
   "optical-encoder-reference-mark-datum-strategies-guide": opticalEncoderReferenceMarkDatumStrategiesGuideArticle,
   "maskless-lithography-quantum-2d-material-prototyping-guide": masklessLithographyQuantum2dMaterialPrototypingGuide,
   "optical-vs-magnetic-encoder-feedback-selection-guide": opticalVsMagneticEncoderFeedbackSelectionGuide,
