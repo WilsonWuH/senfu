@@ -48,6 +48,7 @@ import { opticalVsMagneticEncoderFeedbackSelectionGuide } from "@/lib/optical-vs
 import { opticalEncoderReferenceMarkDatumStrategiesGuideArticle } from "@/lib/optical-encoder-reference-mark-datum-strategies-guide-article";
 import { masklessLithographyQuantum2dMaterialPrototypingGuide } from "@/lib/maskless-lithography-quantum-2d-material-prototyping-guide-article";
 import { linearStageStraightnessAngularErrorMetrologyGuideArticle } from "@/lib/linear-stage-straightness-angular-error-metrology-guide-article";
+import { electronBeamLithographyProximityEffectCorrectionGuide } from "@/lib/electron-beam-lithography-proximity-effect-correction-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -171,6 +172,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "electron-beam-lithography-proximity-effect-correction-guide": electronBeamLithographyProximityEffectCorrectionGuide,
   "maskless-lithography-contact-proximity-printing-comparison-guide": masklessLithographyContactProximityPrintingComparisonGuideArticle,
   "optical-encoder-reference-mark-datum-strategies-guide": opticalEncoderReferenceMarkDatumStrategiesGuideArticle,
   "maskless-lithography-quantum-2d-material-prototyping-guide": masklessLithographyQuantum2dMaterialPrototypingGuide,
