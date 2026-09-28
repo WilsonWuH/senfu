@@ -51,6 +51,7 @@ import { linearStageStraightnessAngularErrorMetrologyGuideArticle } from "@/lib/
 import { opticalEncoderErrorMappingCompensationGuide } from "@/lib/optical-encoder-error-mapping-compensation-guide-article";
 import { electronBeamLithographyProximityEffectCorrectionGuide } from "@/lib/electron-beam-lithography-proximity-effect-correction-guide-article";
 import { lithographySystemFactoryAcceptanceTestGuide } from "@/lib/lithography-system-factory-acceptance-test-guide-article";
+import { opticalEncoderHighSpeedCountingFrequencyLimitsGuide } from "@/lib/optical-encoder-high-speed-counting-frequency-limits-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -174,6 +175,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-high-speed-counting-frequency-limits-guide": opticalEncoderHighSpeedCountingFrequencyLimitsGuide,
   "lithography-system-factory-acceptance-test-guide": lithographySystemFactoryAcceptanceTestGuide,
   "electron-beam-lithography-proximity-effect-correction-guide": electronBeamLithographyProximityEffectCorrectionGuide,
   "maskless-lithography-contact-proximity-printing-comparison-guide": masklessLithographyContactProximityPrintingComparisonGuideArticle,
