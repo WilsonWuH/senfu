@@ -50,6 +50,7 @@ import { masklessLithographyQuantum2dMaterialPrototypingGuide } from "@/lib/mask
 import { linearStageStraightnessAngularErrorMetrologyGuideArticle } from "@/lib/linear-stage-straightness-angular-error-metrology-guide-article";
 import { opticalEncoderErrorMappingCompensationGuide } from "@/lib/optical-encoder-error-mapping-compensation-guide-article";
 import { electronBeamLithographyProximityEffectCorrectionGuide } from "@/lib/electron-beam-lithography-proximity-effect-correction-guide-article";
+import { lithographySystemFactoryAcceptanceTestGuide } from "@/lib/lithography-system-factory-acceptance-test-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -173,6 +174,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "lithography-system-factory-acceptance-test-guide": lithographySystemFactoryAcceptanceTestGuide,
   "electron-beam-lithography-proximity-effect-correction-guide": electronBeamLithographyProximityEffectCorrectionGuide,
   "maskless-lithography-contact-proximity-printing-comparison-guide": masklessLithographyContactProximityPrintingComparisonGuideArticle,
   "optical-encoder-reference-mark-datum-strategies-guide": opticalEncoderReferenceMarkDatumStrategiesGuideArticle,
