@@ -48,6 +48,7 @@ import { opticalVsMagneticEncoderFeedbackSelectionGuide } from "@/lib/optical-vs
 import { opticalEncoderReferenceMarkDatumStrategiesGuideArticle } from "@/lib/optical-encoder-reference-mark-datum-strategies-guide-article";
 import { masklessLithographyQuantum2dMaterialPrototypingGuide } from "@/lib/maskless-lithography-quantum-2d-material-prototyping-guide-article";
 import { linearStageStraightnessAngularErrorMetrologyGuideArticle } from "@/lib/linear-stage-straightness-angular-error-metrology-guide-article";
+import { opticalEncoderErrorMappingCompensationGuide } from "@/lib/optical-encoder-error-mapping-compensation-guide-article";
 import { electronBeamLithographyProximityEffectCorrectionGuide } from "@/lib/electron-beam-lithography-proximity-effect-correction-guide-article";
 import {
   absoluteEncoderStartupRecovery,
@@ -337,4 +338,5 @@ export const technologyPages: Record<string, EditorialPage> = {
     faq: [{ question: "What file formats can the ZML systems use?", answer: "The documented ZML configurations support DXF, GDS and BMP workflows. Confirm the exact import, preprocessing and alignment workflow for the intended system." }, { question: "Which ZML system is best for microfluidic prototypes?", answer: "ZML10A is positioned for compact laboratory R&D and rapid prototyping. ZML100A adds advanced autofocus and overlay features, while ZML200A is for projects requiring up to 8-inch substrates." }, { question: "Can maskless lithography replace a full production mask process?", answer: "It can be valuable for R&D, pilot work and frequent design changes. Production suitability depends on volume, cycle time, process window and the economics of the complete flow." }],
   },
   "linear-stage-straightness-angular-error-metrology-guide": linearStageStraightnessAngularErrorMetrologyGuideArticle,
+  "optical-encoder-error-mapping-compensation-guide": opticalEncoderErrorMappingCompensationGuide,
 };
