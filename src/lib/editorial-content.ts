@@ -53,6 +53,7 @@ import { electronBeamLithographyProximityEffectCorrectionGuide } from "@/lib/ele
 import { lithographySystemFactoryAcceptanceTestGuide } from "@/lib/lithography-system-factory-acceptance-test-guide-article";
 import { opticalEncoderHighSpeedCountingFrequencyLimitsGuide } from "@/lib/optical-encoder-high-speed-counting-frequency-limits-guide-article";
 import { angularEncoderRingScaleMountingLargeDiameterGuide } from "@/lib/angular-encoder-ring-scale-mounting-large-diameter-guide-article";
+import { opticalEncoderCableFlexLifeDragChainGuide } from "@/lib/optical-encoder-cable-flex-life-drag-chain-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -176,6 +177,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-cable-flex-life-drag-chain-guide": opticalEncoderCableFlexLifeDragChainGuide,
   "optical-encoder-high-speed-counting-frequency-limits-guide": opticalEncoderHighSpeedCountingFrequencyLimitsGuide,
   "lithography-system-factory-acceptance-test-guide": lithographySystemFactoryAcceptanceTestGuide,
   "electron-beam-lithography-proximity-effect-correction-guide": electronBeamLithographyProximityEffectCorrectionGuide,
