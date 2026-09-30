@@ -56,6 +56,7 @@ import { angularEncoderRingScaleMountingLargeDiameterGuide } from "@/lib/angular
 import { opticalEncoderCableFlexLifeDragChainGuide } from "@/lib/optical-encoder-cable-flex-life-drag-chain-guide-article";
 import { opticalEncoderScaleContaminationFilmingEffectsGuide } from "@/lib/optical-encoder-scale-contamination-filming-effects-guide-article";
 import { masklessLithographyOverlayAccuracyEncoderFeedbackGuide } from "@/lib/maskless-lithography-overlay-accuracy-encoder-feedback-guide-article";
+import { angularEncoderBearingSelectionVibrationGuide } from "@/lib/angular-encoder-bearing-selection-vibration-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -179,6 +180,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "angular-encoder-bearing-selection-vibration-guide": angularEncoderBearingSelectionVibrationGuide,
   "maskless-lithography-overlay-accuracy-encoder-feedback-guide": masklessLithographyOverlayAccuracyEncoderFeedbackGuide,
   "optical-encoder-scale-contamination-filming-effects-guide": opticalEncoderScaleContaminationFilmingEffectsGuide,
   "optical-encoder-cable-flex-life-drag-chain-guide": opticalEncoderCableFlexLifeDragChainGuide,
