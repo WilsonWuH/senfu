@@ -55,6 +55,7 @@ import { opticalEncoderHighSpeedCountingFrequencyLimitsGuide } from "@/lib/optic
 import { angularEncoderRingScaleMountingLargeDiameterGuide } from "@/lib/angular-encoder-ring-scale-mounting-large-diameter-guide-article";
 import { opticalEncoderCableFlexLifeDragChainGuide } from "@/lib/optical-encoder-cable-flex-life-drag-chain-guide-article";
 import { opticalEncoderScaleContaminationFilmingEffectsGuide } from "@/lib/optical-encoder-scale-contamination-filming-effects-guide-article";
+import { opticalEncoderDiagnosticsAlarmFaultMonitoringGuide } from "@/lib/optical-encoder-diagnostics-alarm-fault-monitoring-guide-article";
 import { masklessLithographyOverlayAccuracyEncoderFeedbackGuide } from "@/lib/maskless-lithography-overlay-accuracy-encoder-feedback-guide-article";
 import { angularEncoderBearingSelectionVibrationGuide } from "@/lib/angular-encoder-bearing-selection-vibration-guide-article";
 import {
@@ -353,4 +354,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "linear-stage-straightness-angular-error-metrology-guide": linearStageStraightnessAngularErrorMetrologyGuideArticle,
   "optical-encoder-error-mapping-compensation-guide": opticalEncoderErrorMappingCompensationGuide,
   "angular-encoder-ring-scale-mounting-large-diameter-guide": angularEncoderRingScaleMountingLargeDiameterGuide,
+  "optical-encoder-diagnostics-alarm-fault-monitoring-guide": opticalEncoderDiagnosticsAlarmFaultMonitoringGuide,
 };
