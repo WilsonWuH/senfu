@@ -58,6 +58,7 @@ import { opticalEncoderScaleContaminationFilmingEffectsGuide } from "@/lib/optic
 import { opticalEncoderDiagnosticsAlarmFaultMonitoringGuide } from "@/lib/optical-encoder-diagnostics-alarm-fault-monitoring-guide-article";
 import { masklessLithographyOverlayAccuracyEncoderFeedbackGuide } from "@/lib/maskless-lithography-overlay-accuracy-encoder-feedback-guide-article";
 import { angularEncoderBearingSelectionVibrationGuide } from "@/lib/angular-encoder-bearing-selection-vibration-guide-article";
+import { masklessLithographyThickResistHighAspectRatioGuide } from "@/lib/maskless-lithography-thick-resist-high-aspect-ratio-guide-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -183,6 +184,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 export const technologyPages: Record<string, EditorialPage> = {
   "angular-encoder-bearing-selection-vibration-guide": angularEncoderBearingSelectionVibrationGuide,
   "maskless-lithography-overlay-accuracy-encoder-feedback-guide": masklessLithographyOverlayAccuracyEncoderFeedbackGuide,
+  "maskless-lithography-thick-resist-high-aspect-ratio-guide": masklessLithographyThickResistHighAspectRatioGuide,
   "optical-encoder-scale-contamination-filming-effects-guide": opticalEncoderScaleContaminationFilmingEffectsGuide,
   "optical-encoder-cable-flex-life-drag-chain-guide": opticalEncoderCableFlexLifeDragChainGuide,
   "optical-encoder-high-speed-counting-frequency-limits-guide": opticalEncoderHighSpeedCountingFrequencyLimitsGuide,
