@@ -74,6 +74,8 @@ import {
   vacuumEncoderOutgassingQualification,
 } from "@/lib/missed-recovery-articles";
 import { encoderHysteresisBidirectionalErrorGuide } from "@/lib/encoder-hysteresis-bidirectional-error-guide-article";
+import { lithographyWriteOnTheFlyEncoderSynchronizationGuide } from "@/lib/lithography-write-on-the-fly-encoder-synchronization-guide-article";
+import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-calibration-artifacts-traceability-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -361,4 +363,6 @@ export const technologyPages: Record<string, EditorialPage> = {
   "angular-encoder-ring-scale-mounting-large-diameter-guide": angularEncoderRingScaleMountingLargeDiameterGuide,
   "optical-encoder-diagnostics-alarm-fault-monitoring-guide": opticalEncoderDiagnosticsAlarmFaultMonitoringGuide,
   "encoder-hysteresis-bidirectional-error-guide": encoderHysteresisBidirectionalErrorGuide,
+  "lithography-write-on-the-fly-encoder-synchronization-guide": lithographyWriteOnTheFlyEncoderSynchronizationGuide,
+  "encoder-calibration-artifacts-traceability-guide": encoderCalibrationArtifactsTraceabilityGuide,
 };
