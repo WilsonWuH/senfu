@@ -73,6 +73,7 @@ import {
   rotaryEncoderSelectionWaferHandling,
   vacuumEncoderOutgassingQualification,
 } from "@/lib/missed-recovery-articles";
+import { encoderHysteresisBidirectionalErrorGuide } from "@/lib/encoder-hysteresis-bidirectional-error-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -359,4 +360,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-error-mapping-compensation-guide": opticalEncoderErrorMappingCompensationGuide,
   "angular-encoder-ring-scale-mounting-large-diameter-guide": angularEncoderRingScaleMountingLargeDiameterGuide,
   "optical-encoder-diagnostics-alarm-fault-monitoring-guide": opticalEncoderDiagnosticsAlarmFaultMonitoringGuide,
+  "encoder-hysteresis-bidirectional-error-guide": encoderHysteresisBidirectionalErrorGuide,
 };
