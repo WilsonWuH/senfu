@@ -78,6 +78,7 @@ import { opticalEncoderCryogenicLowTemperatureOperationGuide } from "@/lib/optic
 import { electronBeamLithographyChargingEffectCompensationGuide } from "@/lib/electron-beam-lithography-charging-effect-compensation-guide-article";
 import { precisionStageVibrationIsolationFloorVibrationCriteriaGuide } from "@/lib/precision-stage-vibration-isolation-floor-vibration-criteria-guide-article";
 import { multiAxisStageCrossCouplingErrorGuide } from "@/lib/multi-axis-stage-cross-coupling-error-guide-article";
+import { encoderReadheadGainMarginAdjustment } from "@/lib/encoder-readhead-gain-margin-adjustment-article";
 import { lithographyWriteOnTheFlyEncoderSynchronizationGuide } from "@/lib/lithography-write-on-the-fly-encoder-synchronization-guide-article";
 import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-calibration-artifacts-traceability-guide-article";
 import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-error-moving-period-guide-article";
@@ -192,6 +193,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "encoder-readhead-gain-margin-adjustment": encoderReadheadGainMarginAdjustment,
   "encoder-dynamic-error-moving-period-guide": encoderDynamicErrorMovingPeriodGuide,
   "maskless-lithography-resist-bake-overlay-guide": masklessLithographyResistBakeOverlayGuide,
   "linear-stage-reversal-error-measurement-compensation-guide": linearStageReversalErrorMeasurementCompensationGuide,
