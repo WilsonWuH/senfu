@@ -74,6 +74,9 @@ import {
   vacuumEncoderOutgassingQualification,
 } from "@/lib/missed-recovery-articles";
 import { encoderHysteresisBidirectionalErrorGuide } from "@/lib/encoder-hysteresis-bidirectional-error-guide-article";
+import { opticalEncoderCryogenicLowTemperatureOperationGuide } from "@/lib/optical-encoder-cryogenic-low-temperature-operation-guide-article";
+import { electronBeamLithographyChargingEffectCompensationGuide } from "@/lib/electron-beam-lithography-charging-effect-compensation-guide-article";
+import { precisionStageVibrationIsolationFloorVibrationCriteriaGuide } from "@/lib/precision-stage-vibration-isolation-floor-vibration-criteria-guide-article";
 import { lithographyWriteOnTheFlyEncoderSynchronizationGuide } from "@/lib/lithography-write-on-the-fly-encoder-synchronization-guide-article";
 import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-calibration-artifacts-traceability-guide-article";
 import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-error-moving-period-guide-article";
@@ -367,6 +370,9 @@ export const technologyPages: Record<string, EditorialPage> = {
   "angular-encoder-ring-scale-mounting-large-diameter-guide": angularEncoderRingScaleMountingLargeDiameterGuide,
   "optical-encoder-diagnostics-alarm-fault-monitoring-guide": opticalEncoderDiagnosticsAlarmFaultMonitoringGuide,
   "encoder-hysteresis-bidirectional-error-guide": encoderHysteresisBidirectionalErrorGuide,
+  "optical-encoder-cryogenic-low-temperature-operation-guide": opticalEncoderCryogenicLowTemperatureOperationGuide,
+  "electron-beam-lithography-charging-effect-compensation-guide": electronBeamLithographyChargingEffectCompensationGuide,
+  "precision-stage-vibration-isolation-floor-vibration-criteria-guide": precisionStageVibrationIsolationFloorVibrationCriteriaGuide,
   "lithography-write-on-the-fly-encoder-synchronization-guide": lithographyWriteOnTheFlyEncoderSynchronizationGuide,
   "encoder-calibration-artifacts-traceability-guide": encoderCalibrationArtifactsTraceabilityGuide,
 };
