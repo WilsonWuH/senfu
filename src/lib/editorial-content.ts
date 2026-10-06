@@ -77,6 +77,7 @@ import { encoderHysteresisBidirectionalErrorGuide } from "@/lib/encoder-hysteres
 import { opticalEncoderCryogenicLowTemperatureOperationGuide } from "@/lib/optical-encoder-cryogenic-low-temperature-operation-guide-article";
 import { electronBeamLithographyChargingEffectCompensationGuide } from "@/lib/electron-beam-lithography-charging-effect-compensation-guide-article";
 import { precisionStageVibrationIsolationFloorVibrationCriteriaGuide } from "@/lib/precision-stage-vibration-isolation-floor-vibration-criteria-guide-article";
+import { multiAxisStageCrossCouplingErrorGuide } from "@/lib/multi-axis-stage-cross-coupling-error-guide-article";
 import { lithographyWriteOnTheFlyEncoderSynchronizationGuide } from "@/lib/lithography-write-on-the-fly-encoder-synchronization-guide-article";
 import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-calibration-artifacts-traceability-guide-article";
 import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-error-moving-period-guide-article";
@@ -373,6 +374,7 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-cryogenic-low-temperature-operation-guide": opticalEncoderCryogenicLowTemperatureOperationGuide,
   "electron-beam-lithography-charging-effect-compensation-guide": electronBeamLithographyChargingEffectCompensationGuide,
   "precision-stage-vibration-isolation-floor-vibration-criteria-guide": precisionStageVibrationIsolationFloorVibrationCriteriaGuide,
+  "multi-axis-stage-cross-coupling-error-guide": multiAxisStageCrossCouplingErrorGuide,
   "lithography-write-on-the-fly-encoder-synchronization-guide": lithographyWriteOnTheFlyEncoderSynchronizationGuide,
   "encoder-calibration-artifacts-traceability-guide": encoderCalibrationArtifactsTraceabilityGuide,
 };
