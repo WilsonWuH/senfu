@@ -76,6 +76,7 @@ import {
 import { encoderHysteresisBidirectionalErrorGuide } from "@/lib/encoder-hysteresis-bidirectional-error-guide-article";
 import { lithographyWriteOnTheFlyEncoderSynchronizationGuide } from "@/lib/lithography-write-on-the-fly-encoder-synchronization-guide-article";
 import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-calibration-artifacts-traceability-guide-article";
+import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-error-moving-period-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -186,6 +187,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "encoder-dynamic-error-moving-period-guide": encoderDynamicErrorMovingPeriodGuide,
   "linear-stage-reversal-error-measurement-compensation-guide": linearStageReversalErrorMeasurementCompensationGuide,
   "angular-encoder-bearing-selection-vibration-guide": angularEncoderBearingSelectionVibrationGuide,
   "maskless-lithography-overlay-accuracy-encoder-feedback-guide": masklessLithographyOverlayAccuracyEncoderFeedbackGuide,
