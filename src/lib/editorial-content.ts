@@ -57,6 +57,7 @@ import { opticalEncoderCableFlexLifeDragChainGuide } from "@/lib/optical-encoder
 import { opticalEncoderScaleContaminationFilmingEffectsGuide } from "@/lib/optical-encoder-scale-contamination-filming-effects-guide-article";
 import { opticalEncoderDiagnosticsAlarmFaultMonitoringGuide } from "@/lib/optical-encoder-diagnostics-alarm-fault-monitoring-guide-article";
 import { masklessLithographyOverlayAccuracyEncoderFeedbackGuide } from "@/lib/maskless-lithography-overlay-accuracy-encoder-feedback-guide-article";
+import { incrementalEncoderAbzSignalTroubleshooting } from "@/lib/incremental-encoder-abz-signal-troubleshooting-article";
 import { angularEncoderBearingSelectionVibrationGuide } from "@/lib/angular-encoder-bearing-selection-vibration-guide-article";
 import { linearStageReversalErrorMeasurementCompensationGuide } from "@/lib/linear-stage-reversal-error-measurement-compensation-guide-article";
 import { masklessLithographyThickResistHighAspectRatioGuide } from "@/lib/maskless-lithography-thick-resist-high-aspect-ratio-guide-article";
@@ -201,6 +202,7 @@ export const technologyPages: Record<string, EditorialPage> = {
   "linear-stage-reversal-error-measurement-compensation-guide": linearStageReversalErrorMeasurementCompensationGuide,
   "angular-encoder-bearing-selection-vibration-guide": angularEncoderBearingSelectionVibrationGuide,
   "maskless-lithography-overlay-accuracy-encoder-feedback-guide": masklessLithographyOverlayAccuracyEncoderFeedbackGuide,
+  "incremental-encoder-abz-signal-troubleshooting": incrementalEncoderAbzSignalTroubleshooting,
   "maskless-lithography-thick-resist-high-aspect-ratio-guide": masklessLithographyThickResistHighAspectRatioGuide,
   "optical-encoder-scale-contamination-filming-effects-guide": opticalEncoderScaleContaminationFilmingEffectsGuide,
   "optical-encoder-cable-flex-life-drag-chain-guide": opticalEncoderCableFlexLifeDragChainGuide,
