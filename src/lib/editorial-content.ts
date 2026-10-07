@@ -85,6 +85,7 @@ import { lithographyWriteOnTheFlyEncoderSynchronizationGuide } from "@/lib/litho
 import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-calibration-artifacts-traceability-guide-article";
 import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-error-moving-period-guide-article";
 import { masklessLithographyResistBakeOverlayGuide } from "@/lib/maskless-lithography-resist-bake-overlay-guide-article";
+import { opticalEncoderSineCosineInterpolationSubdivisionGuide } from "@/lib/optical-encoder-sine-cosine-interpolation-subdivision-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -195,6 +196,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-sine-cosine-interpolation-subdivision-guide": opticalEncoderSineCosineInterpolationSubdivisionGuide,
   "encoder-quadrature-lissajous-signal-tuning": encoderQuadratureLissajousSignalTuning,
   "encoder-readhead-gain-margin-adjustment": encoderReadheadGainMarginAdjustment,
   "encoder-dynamic-error-moving-period-guide": encoderDynamicErrorMovingPeriodGuide,
