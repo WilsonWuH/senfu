@@ -60,6 +60,7 @@ import { masklessLithographyOverlayAccuracyEncoderFeedbackGuide } from "@/lib/ma
 import { angularEncoderBearingSelectionVibrationGuide } from "@/lib/angular-encoder-bearing-selection-vibration-guide-article";
 import { linearStageReversalErrorMeasurementCompensationGuide } from "@/lib/linear-stage-reversal-error-measurement-compensation-guide-article";
 import { masklessLithographyThickResistHighAspectRatioGuide } from "@/lib/maskless-lithography-thick-resist-high-aspect-ratio-guide-article";
+import { encoderQuadratureLissajousSignalTuning } from "@/lib/encoder-quadrature-lissajous-signal-tuning-article";
 import {
   absoluteEncoderStartupRecovery,
   dmdMasklessLithographyMemsPrototyping,
@@ -193,6 +194,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "encoder-quadrature-lissajous-signal-tuning": encoderQuadratureLissajousSignalTuning,
   "encoder-readhead-gain-margin-adjustment": encoderReadheadGainMarginAdjustment,
   "encoder-dynamic-error-moving-period-guide": encoderDynamicErrorMovingPeriodGuide,
   "maskless-lithography-resist-bake-overlay-guide": masklessLithographyResistBakeOverlayGuide,
