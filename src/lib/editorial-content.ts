@@ -86,6 +86,7 @@ import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-cali
 import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-error-moving-period-guide-article";
 import { masklessLithographyResistBakeOverlayGuide } from "@/lib/maskless-lithography-resist-bake-overlay-guide-article";
 import { opticalEncoderSineCosineInterpolationSubdivisionGuide } from "@/lib/optical-encoder-sine-cosine-interpolation-subdivision-guide-article";
+import { masklessLithographyVacuumChuckParticleControlGuide } from "@/lib/maskless-lithography-vacuum-chuck-particle-control-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -201,6 +202,7 @@ export const technologyPages: Record<string, EditorialPage> = {
   "encoder-readhead-gain-margin-adjustment": encoderReadheadGainMarginAdjustment,
   "encoder-dynamic-error-moving-period-guide": encoderDynamicErrorMovingPeriodGuide,
   "maskless-lithography-resist-bake-overlay-guide": masklessLithographyResistBakeOverlayGuide,
+  "maskless-lithography-vacuum-chuck-particle-control-guide": masklessLithographyVacuumChuckParticleControlGuide,
   "linear-stage-reversal-error-measurement-compensation-guide": linearStageReversalErrorMeasurementCompensationGuide,
   "angular-encoder-bearing-selection-vibration-guide": angularEncoderBearingSelectionVibrationGuide,
   "maskless-lithography-overlay-accuracy-encoder-feedback-guide": masklessLithographyOverlayAccuracyEncoderFeedbackGuide,
