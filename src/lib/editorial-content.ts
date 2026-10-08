@@ -88,6 +88,7 @@ import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-erro
 import { masklessLithographyResistBakeOverlayGuide } from "@/lib/maskless-lithography-resist-bake-overlay-guide-article";
 import { opticalEncoderSineCosineInterpolationSubdivisionGuide } from "@/lib/optical-encoder-sine-cosine-interpolation-subdivision-guide-article";
 import { masklessLithographyVacuumChuckParticleControlGuide } from "@/lib/maskless-lithography-vacuum-chuck-particle-control-guide-article";
+import { precisionStageErrorBudgetAllocationGuide } from "@/lib/precision-stage-error-budget-allocation-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -198,6 +199,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "precision-stage-error-budget-allocation-guide": precisionStageErrorBudgetAllocationGuide,
   "optical-encoder-sine-cosine-interpolation-subdivision-guide": opticalEncoderSineCosineInterpolationSubdivisionGuide,
   "encoder-quadrature-lissajous-signal-tuning": encoderQuadratureLissajousSignalTuning,
   "encoder-readhead-gain-margin-adjustment": encoderReadheadGainMarginAdjustment,
