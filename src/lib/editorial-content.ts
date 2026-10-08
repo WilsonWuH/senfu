@@ -48,6 +48,7 @@ import { opticalVsMagneticEncoderFeedbackSelectionGuide } from "@/lib/optical-vs
 import { opticalEncoderReferenceMarkDatumStrategiesGuideArticle } from "@/lib/optical-encoder-reference-mark-datum-strategies-guide-article";
 import { masklessLithographyQuantum2dMaterialPrototypingGuide } from "@/lib/maskless-lithography-quantum-2d-material-prototyping-guide-article";
 import { linearStageStraightnessAngularErrorMetrologyGuideArticle } from "@/lib/linear-stage-straightness-angular-error-metrology-guide-article";
+import { linearEncoderAbbeArmDesignMinimizationGuide } from "@/lib/linear-encoder-abbe-arm-design-minimization-guide-article";
 import { opticalEncoderErrorMappingCompensationGuide } from "@/lib/optical-encoder-error-mapping-compensation-guide-article";
 import { electronBeamLithographyProximityEffectCorrectionGuide } from "@/lib/electron-beam-lithography-proximity-effect-correction-guide-article";
 import { lithographySystemFactoryAcceptanceTestGuide } from "@/lib/lithography-system-factory-acceptance-test-guide-article";
@@ -265,6 +266,7 @@ export const technologyPages: Record<string, EditorialPage> = {
   "rotary-encoder-selection-wafer-handling": rotaryEncoderSelectionWaferHandling,
   "vacuum-encoder-outgassing-qualification": vacuumEncoderOutgassingQualification,
   "photonics-lithography-overlay-metrology": photonicsLithographyOverlayMetrology,
+  "linear-encoder-abbe-arm-design-minimization-guide": linearEncoderAbbeArmDesignMinimizationGuide,
   "lithography-supplier-qualification-process-demo": lithographySupplierQualificationProcessDemo,
   "absolute-encoder-startup-recovery": absoluteEncoderStartupRecovery,
   "encoder-signal-integrity-emc-servo": encoderSignalIntegrityEmcServo,
