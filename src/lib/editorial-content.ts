@@ -91,6 +91,7 @@ import { opticalEncoderSineCosineInterpolationSubdivisionGuide } from "@/lib/opt
 import { masklessLithographyVacuumChuckParticleControlGuide } from "@/lib/maskless-lithography-vacuum-chuck-particle-control-guide-article";
 import { precisionStageErrorBudgetAllocationGuide } from "@/lib/precision-stage-error-budget-allocation-guide-article";
 import { masklessLithographyBacksideAlignmentDoubleSidedGuide } from "@/lib/maskless-lithography-backside-alignment-double-sided-guide-article";
+import { opticalEncoderReadheadMountingBracketStiffnessGuide } from "@/lib/optical-encoder-readhead-mounting-bracket-stiffness-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -201,6 +202,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-readhead-mounting-bracket-stiffness-guide": opticalEncoderReadheadMountingBracketStiffnessGuide,
   "maskless-lithography-backside-alignment-double-sided-guide": masklessLithographyBacksideAlignmentDoubleSidedGuide,
   "precision-stage-error-budget-allocation-guide": precisionStageErrorBudgetAllocationGuide,
   "optical-encoder-sine-cosine-interpolation-subdivision-guide": opticalEncoderSineCosineInterpolationSubdivisionGuide,
