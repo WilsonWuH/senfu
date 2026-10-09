@@ -89,6 +89,7 @@ import { masklessLithographyResistBakeOverlayGuide } from "@/lib/maskless-lithog
 import { opticalEncoderSineCosineInterpolationSubdivisionGuide } from "@/lib/optical-encoder-sine-cosine-interpolation-subdivision-guide-article";
 import { masklessLithographyVacuumChuckParticleControlGuide } from "@/lib/maskless-lithography-vacuum-chuck-particle-control-guide-article";
 import { precisionStageErrorBudgetAllocationGuide } from "@/lib/precision-stage-error-budget-allocation-guide-article";
+import { masklessLithographyBacksideAlignmentDoubleSidedGuide } from "@/lib/maskless-lithography-backside-alignment-double-sided-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -199,6 +200,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-backside-alignment-double-sided-guide": masklessLithographyBacksideAlignmentDoubleSidedGuide,
   "precision-stage-error-budget-allocation-guide": precisionStageErrorBudgetAllocationGuide,
   "optical-encoder-sine-cosine-interpolation-subdivision-guide": opticalEncoderSineCosineInterpolationSubdivisionGuide,
   "encoder-quadrature-lissajous-signal-tuning": encoderQuadratureLissajousSignalTuning,
