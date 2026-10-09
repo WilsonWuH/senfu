@@ -84,6 +84,7 @@ import { multiAxisStageCrossCouplingErrorGuide } from "@/lib/multi-axis-stage-cr
 import { encoderReadheadGainMarginAdjustment } from "@/lib/encoder-readhead-gain-margin-adjustment-article";
 import { lithographyWriteOnTheFlyEncoderSynchronizationGuide } from "@/lib/lithography-write-on-the-fly-encoder-synchronization-guide-article";
 import { encoderCalibrationArtifactsTraceabilityGuide } from "@/lib/encoder-calibration-artifacts-traceability-guide-article";
+import { opticalEncoderFactoryAuditChecklistGuide } from "@/lib/optical-encoder-factory-audit-checklist-guide-article";
 import { encoderDynamicErrorMovingPeriodGuide } from "@/lib/encoder-dynamic-error-moving-period-guide-article";
 import { masklessLithographyResistBakeOverlayGuide } from "@/lib/maskless-lithography-resist-bake-overlay-guide-article";
 import { opticalEncoderSineCosineInterpolationSubdivisionGuide } from "@/lib/optical-encoder-sine-cosine-interpolation-subdivision-guide-article";
@@ -393,4 +394,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "multi-axis-stage-cross-coupling-error-guide": multiAxisStageCrossCouplingErrorGuide,
   "lithography-write-on-the-fly-encoder-synchronization-guide": lithographyWriteOnTheFlyEncoderSynchronizationGuide,
   "encoder-calibration-artifacts-traceability-guide": encoderCalibrationArtifactsTraceabilityGuide,
+  "optical-encoder-factory-audit-checklist-guide": opticalEncoderFactoryAuditChecklistGuide,
 };
