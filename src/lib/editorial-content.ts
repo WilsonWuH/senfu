@@ -95,6 +95,7 @@ import { masklessLithographyBacksideAlignmentDoubleSidedGuide } from "@/lib/mask
 import { opticalEncoderReadheadMountingBracketStiffnessGuide } from "@/lib/optical-encoder-readhead-mounting-bracket-stiffness-guide-article";
 import { precisionStageThermalDriftWarmUpStabilizationGuide } from "@/lib/precision-stage-thermal-drift-warm-up-stabilization-guide-article";
 import { opticalEncoderScalePitchCycleErrorSeparationGuide } from "@/lib/optical-encoder-scale-pitch-cycle-error-separation-guide-article";
+import { masklessLithographyWriteFieldStitchingErrorFeedforwardGuide } from "@/lib/maskless-lithography-write-field-stitching-error-feedforward-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -205,6 +206,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-write-field-stitching-error-feedforward-guide": masklessLithographyWriteFieldStitchingErrorFeedforwardGuide,
   "optical-encoder-scale-pitch-cycle-error-separation-guide": opticalEncoderScalePitchCycleErrorSeparationGuide,
   "electron-beam-lithography-focus-stigmator-calibration-guide": electronBeamLithographyFocusStigmatorCalibrationGuide,
   "precision-stage-thermal-drift-warm-up-stabilization-guide": precisionStageThermalDriftWarmUpStabilizationGuide,
