@@ -97,6 +97,7 @@ import { precisionStageThermalDriftWarmUpStabilizationGuide } from "@/lib/precis
 import { opticalEncoderScalePitchCycleErrorSeparationGuide } from "@/lib/optical-encoder-scale-pitch-cycle-error-separation-guide-article";
 import { masklessLithographyWriteFieldStitchingErrorFeedforwardGuide } from "@/lib/maskless-lithography-write-field-stitching-error-feedforward-guide-article";
 import { linearStageSquarenessPerpendicularityMeasurementGuide } from "@/lib/linear-stage-squareness-perpendicularity-measurement-guide-article";
+import { opticalEncoderAirGapClearanceSetupGuide } from "@/lib/optical-encoder-air-gap-clearance-setup-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -207,6 +208,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-air-gap-clearance-setup-guide": opticalEncoderAirGapClearanceSetupGuide,
   "linear-stage-squareness-perpendicularity-measurement-guide": linearStageSquarenessPerpendicularityMeasurementGuide,
   "maskless-lithography-write-field-stitching-error-feedforward-guide": masklessLithographyWriteFieldStitchingErrorFeedforwardGuide,
   "optical-encoder-scale-pitch-cycle-error-separation-guide": opticalEncoderScalePitchCycleErrorSeparationGuide,
