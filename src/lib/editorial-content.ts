@@ -98,6 +98,7 @@ import { opticalEncoderScalePitchCycleErrorSeparationGuide } from "@/lib/optical
 import { masklessLithographyWriteFieldStitchingErrorFeedforwardGuide } from "@/lib/maskless-lithography-write-field-stitching-error-feedforward-guide-article";
 import { linearStageSquarenessPerpendicularityMeasurementGuide } from "@/lib/linear-stage-squareness-perpendicularity-measurement-guide-article";
 import { opticalEncoderAirGapClearanceSetupGuide } from "@/lib/optical-encoder-air-gap-clearance-setup-guide-article";
+import { opticalEncoderDualReadheadAngularErrorCancellationGuide } from "@/lib/optical-encoder-dual-readhead-angular-error-cancellation-guide-article";
 import { masklessLithographyLineEdgeRoughnessLwrGuide } from "@/lib/maskless-lithography-line-edge-roughness-lwr-guide-article";
 import { precisionStagePositioningRepeatabilityIso2302Guide } from "@/lib/precision-stage-positioning-repeatability-iso-230-2-guide-article";
 
@@ -210,6 +211,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-dual-readhead-angular-error-cancellation-guide": opticalEncoderDualReadheadAngularErrorCancellationGuide,
   "maskless-lithography-line-edge-roughness-lwr-guide": masklessLithographyLineEdgeRoughnessLwrGuide,
   "optical-encoder-air-gap-clearance-setup-guide": opticalEncoderAirGapClearanceSetupGuide,
   "linear-stage-squareness-perpendicularity-measurement-guide": linearStageSquarenessPerpendicularityMeasurementGuide,
