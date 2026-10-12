@@ -99,6 +99,7 @@ import { masklessLithographyWriteFieldStitchingErrorFeedforwardGuide } from "@/l
 import { linearStageSquarenessPerpendicularityMeasurementGuide } from "@/lib/linear-stage-squareness-perpendicularity-measurement-guide-article";
 import { opticalEncoderAirGapClearanceSetupGuide } from "@/lib/optical-encoder-air-gap-clearance-setup-guide-article";
 import { masklessLithographyLineEdgeRoughnessLwrGuide } from "@/lib/maskless-lithography-line-edge-roughness-lwr-guide-article";
+import { precisionStagePositioningRepeatabilityIso2302Guide } from "@/lib/precision-stage-positioning-repeatability-iso-230-2-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -411,4 +412,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "lithography-write-on-the-fly-encoder-synchronization-guide": lithographyWriteOnTheFlyEncoderSynchronizationGuide,
   "encoder-calibration-artifacts-traceability-guide": encoderCalibrationArtifactsTraceabilityGuide,
   "optical-encoder-factory-audit-checklist-guide": opticalEncoderFactoryAuditChecklistGuide,
+  "precision-stage-positioning-repeatability-iso-230-2-guide": precisionStagePositioningRepeatabilityIso2302Guide,
 };
