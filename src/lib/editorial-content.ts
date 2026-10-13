@@ -101,6 +101,7 @@ import { opticalEncoderAirGapClearanceSetupGuide } from "@/lib/optical-encoder-a
 import { opticalEncoderDualReadheadAngularErrorCancellationGuide } from "@/lib/optical-encoder-dual-readhead-angular-error-cancellation-guide-article";
 import { masklessLithographyLineEdgeRoughnessLwrGuide } from "@/lib/maskless-lithography-line-edge-roughness-lwr-guide-article";
 import { precisionStagePositioningRepeatabilityIso2302Guide } from "@/lib/precision-stage-positioning-repeatability-iso-230-2-guide-article";
+import { masklessLithographyLiftOffMetalPatterningGuide } from "@/lib/maskless-lithography-lift-off-metal-patterning-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -211,6 +212,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-lift-off-metal-patterning-guide": masklessLithographyLiftOffMetalPatterningGuide,
   "optical-encoder-dual-readhead-angular-error-cancellation-guide": opticalEncoderDualReadheadAngularErrorCancellationGuide,
   "maskless-lithography-line-edge-roughness-lwr-guide": masklessLithographyLineEdgeRoughnessLwrGuide,
   "optical-encoder-air-gap-clearance-setup-guide": opticalEncoderAirGapClearanceSetupGuide,
