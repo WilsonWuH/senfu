@@ -103,6 +103,7 @@ import { masklessLithographyLineEdgeRoughnessLwrGuide } from "@/lib/maskless-lit
 import { precisionStagePositioningRepeatabilityIso2302Guide } from "@/lib/precision-stage-positioning-repeatability-iso-230-2-guide-article";
 import { masklessLithographyLiftOffMetalPatterningGuide } from "@/lib/maskless-lithography-lift-off-metal-patterning-guide-article";
 import { lithographySystemInstallationQualificationSatIqOqPqGuide } from "@/lib/lithography-system-installation-qualification-sat-iqoqpq-guide-article";
+import { masklessLithographyFocusDepthOfFieldBudgetGuide } from "@/lib/maskless-lithography-focus-depth-of-field-budget-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -213,6 +214,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "maskless-lithography-focus-depth-of-field-budget-guide": masklessLithographyFocusDepthOfFieldBudgetGuide,
   "lithography-system-installation-qualification-sat-iqoqpq-guide": lithographySystemInstallationQualificationSatIqOqPqGuide,
   "maskless-lithography-lift-off-metal-patterning-guide": masklessLithographyLiftOffMetalPatterningGuide,
   "optical-encoder-dual-readhead-angular-error-cancellation-guide": opticalEncoderDualReadheadAngularErrorCancellationGuide,
