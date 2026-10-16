@@ -155,6 +155,7 @@ export type EditorialPage = {
   faq?: EditorialFaq[];
   sources?: { publisher: string; label: string; href: string }[];
   midCta?: { eyebrow: string; title: string; description: string; label: string; href: string };
+  endCta?: { eyebrow: string; title: string; description: string; label: string; href: string };
   conclusionHeading?: string;
 };
 
