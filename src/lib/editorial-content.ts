@@ -1,5 +1,6 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
+import { electronBeamLithographyShotNoiseDoseOptimizationGuide } from "@/lib/electron-beam-lithography-shot-noise-dose-optimization-guide-article";
 import { electronBeamLithographySystemSelection } from "@/lib/electron-beam-lithography-system-selection-article";
 import { encoderInterpolationErrorTesting } from "@/lib/encoder-interpolation-error-testing-article";
 import { airBearingStageEncoderSelection } from "@/lib/air-bearing-stage-encoder-selection-article";
@@ -215,6 +216,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "electron-beam-lithography-shot-noise-dose-optimization-guide": electronBeamLithographyShotNoiseDoseOptimizationGuide,
   "encoder-reliability-mtbf-mttr-verification-guide": encoderReliabilityMtbfMttrVerificationGuide,
   "maskless-lithography-focus-depth-of-field-budget-guide": masklessLithographyFocusDepthOfFieldBudgetGuide,
   "lithography-system-installation-qualification-sat-iqoqpq-guide": lithographySystemInstallationQualificationSatIqOqPqGuide,
