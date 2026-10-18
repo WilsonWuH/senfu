@@ -107,6 +107,7 @@ import { masklessLithographyLiftOffMetalPatterningGuide } from "@/lib/maskless-l
 import { lithographySystemInstallationQualificationSatIqOqPqGuide } from "@/lib/lithography-system-installation-qualification-sat-iqoqpq-guide-article";
 import { masklessLithographyFocusDepthOfFieldBudgetGuide } from "@/lib/maskless-lithography-focus-depth-of-field-budget-guide-article";
 import { precisionStageVolumetricErrorMeasurementGuide } from "@/lib/precision-stage-volumetric-error-measurement-guide-article";
+import { encoderJitterStageVelocityStabilityGuide } from "@/lib/encoder-jitter-stage-velocity-stability-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -218,6 +219,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "encoder-jitter-stage-velocity-stability-guide": encoderJitterStageVelocityStabilityGuide,
   "precision-stage-volumetric-error-measurement-guide": precisionStageVolumetricErrorMeasurementGuide,
   "electron-beam-lithography-shot-noise-dose-optimization-guide": electronBeamLithographyShotNoiseDoseOptimizationGuide,
   "encoder-reliability-mtbf-mttr-verification-guide": encoderReliabilityMtbfMttrVerificationGuide,
