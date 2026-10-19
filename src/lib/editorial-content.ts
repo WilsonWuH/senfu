@@ -108,6 +108,7 @@ import { lithographySystemInstallationQualificationSatIqOqPqGuide } from "@/lib/
 import { masklessLithographyFocusDepthOfFieldBudgetGuide } from "@/lib/maskless-lithography-focus-depth-of-field-budget-guide-article";
 import { precisionStageVolumetricErrorMeasurementGuide } from "@/lib/precision-stage-volumetric-error-measurement-guide-article";
 import { encoderJitterStageVelocityStabilityGuide } from "@/lib/encoder-jitter-stage-velocity-stability-guide-article";
+import { opticalEncoderUvwCommutationSignalAlignmentGuide } from "@/lib/optical-encoder-uvw-commutation-signal-alignment-guide";
 
 export type EditorialImage = {
   src: string;
@@ -220,6 +221,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 
 export const technologyPages: Record<string, EditorialPage> = {
   "encoder-jitter-stage-velocity-stability-guide": encoderJitterStageVelocityStabilityGuide,
+  "optical-encoder-uvw-commutation-signal-alignment-guide": opticalEncoderUvwCommutationSignalAlignmentGuide,
   "precision-stage-volumetric-error-measurement-guide": precisionStageVolumetricErrorMeasurementGuide,
   "electron-beam-lithography-shot-noise-dose-optimization-guide": electronBeamLithographyShotNoiseDoseOptimizationGuide,
   "encoder-reliability-mtbf-mttr-verification-guide": encoderReliabilityMtbfMttrVerificationGuide,
