@@ -1,5 +1,6 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
+import { lithographyAlignmentMarkDesignSignalContrastGuide } from "@/lib/lithography-alignment-mark-design-signal-contrast-guide-article";
 import { electronBeamLithographyShotNoiseDoseOptimizationGuide } from "@/lib/electron-beam-lithography-shot-noise-dose-optimization-guide-article";
 import { electronBeamLithographySystemSelection } from "@/lib/electron-beam-lithography-system-selection-article";
 import { encoderInterpolationErrorTesting } from "@/lib/encoder-interpolation-error-testing-article";
@@ -220,6 +221,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "lithography-alignment-mark-design-signal-contrast-guide": lithographyAlignmentMarkDesignSignalContrastGuide,
   "encoder-jitter-stage-velocity-stability-guide": encoderJitterStageVelocityStabilityGuide,
   "optical-encoder-uvw-commutation-signal-alignment-guide": opticalEncoderUvwCommutationSignalAlignmentGuide,
   "precision-stage-volumetric-error-measurement-guide": precisionStageVolumetricErrorMeasurementGuide,
