@@ -110,6 +110,7 @@ import { masklessLithographyFocusDepthOfFieldBudgetGuide } from "@/lib/maskless-
 import { precisionStageVolumetricErrorMeasurementGuide } from "@/lib/precision-stage-volumetric-error-measurement-guide-article";
 import { encoderJitterStageVelocityStabilityGuide } from "@/lib/encoder-jitter-stage-velocity-stability-guide-article";
 import { opticalEncoderUvwCommutationSignalAlignmentGuide } from "@/lib/optical-encoder-uvw-commutation-signal-alignment-guide";
+import { opticalEncoderScaleCteMismatchMountingGuide } from "@/lib/optical-encoder-scale-cte-mismatch-mounting-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -221,6 +222,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "optical-encoder-scale-cte-mismatch-mounting-guide": opticalEncoderScaleCteMismatchMountingGuide,
   "lithography-alignment-mark-design-signal-contrast-guide": lithographyAlignmentMarkDesignSignalContrastGuide,
   "encoder-jitter-stage-velocity-stability-guide": encoderJitterStageVelocityStabilityGuide,
   "optical-encoder-uvw-commutation-signal-alignment-guide": opticalEncoderUvwCommutationSignalAlignmentGuide,
