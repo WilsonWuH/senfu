@@ -111,6 +111,7 @@ import { precisionStageVolumetricErrorMeasurementGuide } from "@/lib/precision-s
 import { encoderJitterStageVelocityStabilityGuide } from "@/lib/encoder-jitter-stage-velocity-stability-guide-article";
 import { opticalEncoderUvwCommutationSignalAlignmentGuide } from "@/lib/optical-encoder-uvw-commutation-signal-alignment-guide";
 import { opticalEncoderScaleCteMismatchMountingGuide } from "@/lib/optical-encoder-scale-cte-mismatch-mounting-guide-article";
+import { opticalEncoderVacuumEnvironmentOperationGuide } from "@/lib/optical-encoder-vacuum-environment-operation-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -436,4 +437,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "encoder-calibration-artifacts-traceability-guide": encoderCalibrationArtifactsTraceabilityGuide,
   "optical-encoder-factory-audit-checklist-guide": opticalEncoderFactoryAuditChecklistGuide,
   "precision-stage-positioning-repeatability-iso-230-2-guide": precisionStagePositioningRepeatabilityIso2302Guide,
+  "optical-encoder-vacuum-environment-operation-guide": opticalEncoderVacuumEnvironmentOperationGuide,
 };
