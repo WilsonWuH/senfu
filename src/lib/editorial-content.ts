@@ -114,6 +114,7 @@ import { opticalEncoderScaleCteMismatchMountingGuide } from "@/lib/optical-encod
 import { opticalEncoderVacuumEnvironmentOperationGuide } from "@/lib/optical-encoder-vacuum-environment-operation-guide-article";
 import { opticalEncoderTtlLineDriverOutputInterfaceGuide } from "@/lib/optical-encoder-ttl-line-driver-output-interface-guide-article";
 import { precisionStageStraightnessErrorMeasurementGuide } from "@/lib/precision-stage-straightness-error-measurement-guide-article";
+import { opticalEncoderIndexPulseHomingReferenceGuide } from "@/lib/optical-encoder-index-pulse-homing-reference-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -442,4 +443,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-vacuum-environment-operation-guide": opticalEncoderVacuumEnvironmentOperationGuide,
   "optical-encoder-ttl-line-driver-output-interface-guide": opticalEncoderTtlLineDriverOutputInterfaceGuide,
   "precision-stage-straightness-error-measurement-guide": precisionStageStraightnessErrorMeasurementGuide,
+  "optical-encoder-index-pulse-homing-reference-guide": opticalEncoderIndexPulseHomingReferenceGuide,
 };
