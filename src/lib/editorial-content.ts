@@ -115,6 +115,7 @@ import { opticalEncoderVacuumEnvironmentOperationGuide } from "@/lib/optical-enc
 import { opticalEncoderTtlLineDriverOutputInterfaceGuide } from "@/lib/optical-encoder-ttl-line-driver-output-interface-guide-article";
 import { precisionStageStraightnessErrorMeasurementGuide } from "@/lib/precision-stage-straightness-error-measurement-guide-article";
 import { opticalEncoderIndexPulseHomingReferenceGuide } from "@/lib/optical-encoder-index-pulse-homing-reference-guide-article";
+import { lithographyStageRigidityMapOverlayErrorGuide } from "@/lib/lithography-stage-rigidity-map-overlay-error-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -444,4 +445,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-ttl-line-driver-output-interface-guide": opticalEncoderTtlLineDriverOutputInterfaceGuide,
   "precision-stage-straightness-error-measurement-guide": precisionStageStraightnessErrorMeasurementGuide,
   "optical-encoder-index-pulse-homing-reference-guide": opticalEncoderIndexPulseHomingReferenceGuide,
+  "lithography-stage-rigidity-map-overlay-error-guide": lithographyStageRigidityMapOverlayErrorGuide,
 };
