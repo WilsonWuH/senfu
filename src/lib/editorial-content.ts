@@ -117,6 +117,7 @@ import { precisionStageStraightnessErrorMeasurementGuide } from "@/lib/precision
 import { opticalEncoderIndexPulseHomingReferenceGuide } from "@/lib/optical-encoder-index-pulse-homing-reference-guide-article";
 import { lithographyStageRigidityMapOverlayErrorGuide } from "@/lib/lithography-stage-rigidity-map-overlay-error-guide-article";
 import { linearStageEncoderVsLaserInterferometerFeedbackGuide } from "@/lib/linear-stage-encoder-vs-laser-interferometer-feedback-guide-article";
+import { electronBeamLithographyVacuumPathContaminationGuide } from "@/lib/electron-beam-lithography-vacuum-path-contamination-guide-article";
 
 export type EditorialImage = {
   src: string;
@@ -448,4 +449,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-index-pulse-homing-reference-guide": opticalEncoderIndexPulseHomingReferenceGuide,
   "lithography-stage-rigidity-map-overlay-error-guide": lithographyStageRigidityMapOverlayErrorGuide,
   "linear-stage-encoder-vs-laser-interferometer-feedback-guide": linearStageEncoderVsLaserInterferometerFeedbackGuide,
+  "electron-beam-lithography-vacuum-path-contamination-guide": electronBeamLithographyVacuumPathContaminationGuide,
 };
