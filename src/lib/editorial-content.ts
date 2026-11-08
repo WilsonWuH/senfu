@@ -1,6 +1,7 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
 import { lithographyAlignmentMarkDesignSignalContrastGuide } from "@/lib/lithography-alignment-mark-design-signal-contrast-guide-article";
+import { electronBeamLithographyRasterVsVectorWritingStrategyGuide } from "@/lib/electron-beam-lithography-raster-vs-vector-writing-strategy-guide-article";
 import { electronBeamLithographyShotNoiseDoseOptimizationGuide } from "@/lib/electron-beam-lithography-shot-noise-dose-optimization-guide-article";
 import { electronBeamLithographySystemSelection } from "@/lib/electron-beam-lithography-system-selection-article";
 import { encoderInterpolationErrorTesting } from "@/lib/encoder-interpolation-error-testing-article";
@@ -456,4 +457,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "electron-beam-lithography-resist-selection-guide": electronBeamLithographyResistSelectionGuide,
   "optical-encoder-retrofit-legacy-stage-guide": opticalEncoderRetrofitLegacyStageGuide,
   "optical-encoder-installation-mechanical-tolerance-guide": opticalEncoderInstallationMechanicalToleranceGuide,
+  "electron-beam-lithography-raster-vs-vector-writing-strategy-guide": electronBeamLithographyRasterVsVectorWritingStrategyGuide,
 };
