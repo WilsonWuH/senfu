@@ -1,5 +1,6 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
 import { opticalEncoderPositionCompareTriggerOutputGuide } from "@/lib/optical-encoder-position-compare-trigger-output-guide-article";
+import { opticalEncoderPostCollisionInspectionRecoveryGuide } from "@/lib/optical-encoder-post-collision-inspection-recovery-guide-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
 import { lithographyAlignmentMarkDesignSignalContrastGuide } from "@/lib/lithography-alignment-mark-design-signal-contrast-guide-article";
 import { electronBeamLithographyRasterVsVectorWritingStrategyGuide } from "@/lib/electron-beam-lithography-raster-vs-vector-writing-strategy-guide-article";
@@ -460,4 +461,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-installation-mechanical-tolerance-guide": opticalEncoderInstallationMechanicalToleranceGuide,
   "electron-beam-lithography-raster-vs-vector-writing-strategy-guide": electronBeamLithographyRasterVsVectorWritingStrategyGuide,
   "optical-encoder-position-compare-trigger-output-guide": opticalEncoderPositionCompareTriggerOutputGuide,
+  "optical-encoder-post-collision-inspection-recovery-guide": opticalEncoderPostCollisionInspectionRecoveryGuide,
 };
