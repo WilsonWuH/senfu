@@ -4,6 +4,7 @@ import { opticalEncoderPostCollisionInspectionRecoveryGuide } from "@/lib/optica
 import { opticalEncoderLongCableRunSignalIntegrityGuide } from "@/lib/optical-encoder-long-cable-run-signal-integrity-guide-article";
 import { opticalEncoderVerticalZStageFeedbackGuide } from "@/lib/optical-encoder-vertical-z-stage-feedback-guide-article";
 import { opticalEncoderTapeScaleTensioningGuide } from "@/lib/optical-encoder-tape-scale-tensioning-guide-article";
+import { opticalEncoderCountingDirectionFeedbackPolarityGuide } from "@/lib/optical-encoder-counting-direction-feedback-polarity-guide-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
 import { lithographyAlignmentMarkDesignSignalContrastGuide } from "@/lib/lithography-alignment-mark-design-signal-contrast-guide-article";
 import { electronBeamLithographyRasterVsVectorWritingStrategyGuide } from "@/lib/electron-beam-lithography-raster-vs-vector-writing-strategy-guide-article";
@@ -468,4 +469,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-long-cable-run-signal-integrity-guide": opticalEncoderLongCableRunSignalIntegrityGuide,
   "optical-encoder-vertical-z-stage-feedback-guide": opticalEncoderVerticalZStageFeedbackGuide,
   "optical-encoder-tape-scale-tensioning-guide": opticalEncoderTapeScaleTensioningGuide,
+  "optical-encoder-counting-direction-feedback-polarity-guide": opticalEncoderCountingDirectionFeedbackPolarityGuide,
 };
