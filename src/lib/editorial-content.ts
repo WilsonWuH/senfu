@@ -7,6 +7,7 @@ import { opticalEncoderTapeScaleTensioningGuide } from "@/lib/optical-encoder-ta
 import { opticalEncoderCountingDirectionFeedbackPolarityGuide } from "@/lib/optical-encoder-counting-direction-feedback-polarity-guide-article";
 import { opticalEncoderPhaseVsAmplitudeGratingPrincipleGuide } from "@/lib/optical-encoder-phase-vs-amplitude-grating-principle-guide-article";
 import { opticalEncoderGoniometerRotationAxisFeedbackGuide } from "@/lib/optical-encoder-goniometer-rotation-axis-feedback-guide-article";
+import { opticalEncoderEnclosedVsOpenScaleSelectionGuide } from "@/lib/optical-encoder-enclosed-vs-open-scale-selection-guide-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
 import { lithographyAlignmentMarkDesignSignalContrastGuide } from "@/lib/lithography-alignment-mark-design-signal-contrast-guide-article";
 import { electronBeamLithographyRasterVsVectorWritingStrategyGuide } from "@/lib/electron-beam-lithography-raster-vs-vector-writing-strategy-guide-article";
@@ -474,4 +475,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-counting-direction-feedback-polarity-guide": opticalEncoderCountingDirectionFeedbackPolarityGuide,
   "optical-encoder-phase-vs-amplitude-grating-principle-guide": opticalEncoderPhaseVsAmplitudeGratingPrincipleGuide,
   "optical-encoder-goniometer-rotation-axis-feedback-guide": opticalEncoderGoniometerRotationAxisFeedbackGuide,
+  "optical-encoder-enclosed-vs-open-scale-selection-guide": opticalEncoderEnclosedVsOpenScaleSelectionGuide,
 };
