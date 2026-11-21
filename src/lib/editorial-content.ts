@@ -11,6 +11,7 @@ import { opticalEncoderEnclosedVsOpenScaleSelectionGuide } from "@/lib/optical-e
 import { opticalEncoderInterpolationElectronicsAsicVsDiscreteGuide } from "@/lib/optical-encoder-interpolation-electronics-asic-vs-discrete-guide-article";
 import { opticalEncoderRotaryVsLinearScaleThetaStageGuide } from "@/lib/optical-encoder-rotary-vs-linear-scale-theta-stage-guide-article";
 import { opticalEncoderPiezoNanopositioningFeedbackGuide } from "@/lib/optical-encoder-piezo-nanopositioning-feedback-guide-article";
+import { opticalEncoderReadheadReplacementGuide } from "@/lib/optical-encoder-readhead-replacement-guide-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
 import { lithographyAlignmentMarkDesignSignalContrastGuide } from "@/lib/lithography-alignment-mark-design-signal-contrast-guide-article";
 import { electronBeamLithographyRasterVsVectorWritingStrategyGuide } from "@/lib/electron-beam-lithography-raster-vs-vector-writing-strategy-guide-article";
@@ -482,4 +483,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-interpolation-electronics-asic-vs-discrete-guide": opticalEncoderInterpolationElectronicsAsicVsDiscreteGuide,
   "optical-encoder-rotary-vs-linear-scale-theta-stage-guide": opticalEncoderRotaryVsLinearScaleThetaStageGuide,
   "optical-encoder-piezo-nanopositioning-feedback-guide": opticalEncoderPiezoNanopositioningFeedbackGuide,
+  "optical-encoder-readhead-replacement-guide": opticalEncoderReadheadReplacementGuide,
 };
