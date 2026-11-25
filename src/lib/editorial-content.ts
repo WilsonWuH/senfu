@@ -15,6 +15,7 @@ import { opticalEncoderPiezoNanopositioningFeedbackGuide } from "@/lib/optical-e
 import { opticalEncoderReadheadReplacementGuide } from "@/lib/optical-encoder-readhead-replacement-guide-article";
 import { hexapodStageEncoderFeedbackGuide } from "@/lib/hexapod-stage-encoder-feedback-guide-article";
 import { opticalEncoderDatasheetSpecificationsGuide } from "@/lib/optical-encoder-datasheet-specifications-guide-article";
+import { opticalEncoderSecondSourceQualificationGuide } from "@/lib/optical-encoder-second-source-qualification-guide-article";
 import { encoderReliabilityMtbfMttrVerificationGuide } from "@/lib/encoder-reliability-mtbf-mttr-verification-guide-article";
 import { lithographyAlignmentMarkDesignSignalContrastGuide } from "@/lib/lithography-alignment-mark-design-signal-contrast-guide-article";
 import { electronBeamLithographyRasterVsVectorWritingStrategyGuide } from "@/lib/electron-beam-lithography-raster-vs-vector-writing-strategy-guide-article";
@@ -490,4 +491,5 @@ export const technologyPages: Record<string, EditorialPage> = {
   "optical-encoder-readhead-replacement-guide": opticalEncoderReadheadReplacementGuide,
   "hexapod-stage-encoder-feedback-guide": hexapodStageEncoderFeedbackGuide,
   "optical-encoder-datasheet-specifications-guide": opticalEncoderDatasheetSpecificationsGuide,
+  "optical-encoder-second-source-qualification-guide": opticalEncoderSecondSourceQualificationGuide,
 };
