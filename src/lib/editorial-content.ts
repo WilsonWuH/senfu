@@ -1,4 +1,5 @@
 import { grayscaleLithographySystemSelection } from "@/lib/grayscale-lithography-article";
+import { linearEncoderScaleLengthSelectionGuide } from "@/lib/linear-encoder-scale-length-selection-guide-article";
 import { maskAlignerVsStepperLabCleanroomGuide } from "@/lib/mask-aligner-vs-stepper-lab-cleanroom-guide-article";
 import { opticalEncoderPositionCompareTriggerOutputGuide } from "@/lib/optical-encoder-position-compare-trigger-output-guide-article";
 import { opticalEncoderPostCollisionInspectionRecoveryGuide } from "@/lib/optical-encoder-post-collision-inspection-recovery-guide-article";
@@ -250,6 +251,7 @@ export const applicationPages: Record<string, EditorialPage> = {
 };
 
 export const technologyPages: Record<string, EditorialPage> = {
+  "linear-encoder-scale-length-selection-guide": linearEncoderScaleLengthSelectionGuide,
   "mask-aligner-vs-stepper-lab-cleanroom-guide": maskAlignerVsStepperLabCleanroomGuide,
   "optical-encoder-scale-cte-mismatch-mounting-guide": opticalEncoderScaleCteMismatchMountingGuide,
   "lithography-alignment-mark-design-signal-contrast-guide": lithographyAlignmentMarkDesignSignalContrastGuide,
